@@ -36,10 +36,10 @@ public:
 
     this->timer_->cancel();
 
-    if (!this->client_ptr_->wait_for_action_server()) {
-      RCLCPP_ERROR(this->get_logger(), "Action server not available after waiting");
-      rclcpp::shutdown();
-    }
+    // if (!this->client_ptr_->wait_for_action_server()) {
+    //   RCLCPP_ERROR(this->get_logger(), "Action server not available after waiting");
+    //   rclcpp::shutdown();
+    // }
 
     auto goal_msg = Fibonacci::Goal();
     goal_msg.order = 10;

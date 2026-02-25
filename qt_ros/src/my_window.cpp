@@ -160,3 +160,35 @@ void MyWindow::send_goal()
 
 }
 
+//Action Server
+rclcpp_action::GoalResponse handle_goal(
+    const rclcpp_action::GoalUUID & uuid,std::shared_prt<const Fibonacci::Goal> goal)
+{
+    RCLCPP_INFO(this->get_logger(),"received goal request with order %d",goal-> order);
+    return rclpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
+}
+
+rclcpp_action::CancelResponse handle_cancel(
+    const std::shared_ptr<GoalHandleFibonacci> goal_handle)
+{
+    RCLCPP_INFO(this->get_logger(), "Received request to cancel goal");
+    (void)goal_handle;
+    return rclcpp_action::CancelResponse::ACCEPT;
+}
+
+rclcpp_action::CancelResponse(const std::shared_ptr<GoalHandleFibonacci> goal_handle)
+{
+    using namespace std::placeholder;
+    std::thread{std::bind(&MyWindow::execute,this,_1),goal_handle}.detach();
+}
+
+void execute(const std::shared_ptr<GoalHandleFibonacci> goal_handle)
+{
+    RCLCPP_INFO(this->get_logger(),"Executing goal");
+    const auto goal= goal_handle->get_goal();
+    auto feedback = std::make_shared<Fibonacci::Feedback>();
+    auto &sequence = feedback->partial_sequence;
+    sequence.push_back(1);
+    sequence.push_back(2);
+    
+}
