@@ -1,0 +1,933 @@
+[0.016s] Invoking command in '/home/maddy/qt_ros_workspace/build/qt_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maddy/qt_ros_workspace/build/qt_ros -- -j8 -l8
+[0.050s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.204s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.457s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.461s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.470s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.501s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.544s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.546s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.244s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.308s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.452s] -- Found rclcpp_action: 16.0.17 (/opt/ros/humble/share/rclcpp_action/cmake)
+[8.909s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.556s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[9.588s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.588s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[9.588s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[9.620s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[9.620s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[9.620s]   rosidl_target_interfaces()
+[9.620s] Call Stack (most recent call first):
+[9.620s]   CMakeLists.txt:45 (rosidl_target_interfaces)
+[9.621s] 
+[9.621s] [0m
+[9.629s] -- Configuring done
+[9.707s] -- Generating done
+[9.729s] -- Build files have been written to: /home/maddy/qt_ros_workspace/build/qt_ros
+[9.776s] [35m[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_generator_c[0m
+[9.794s] [  2%] Built target qt_ros__cpp
+[9.805s] [  4%] [32mBuilding C object CMakeFiles/qt_ros__rosidl_generator_c.dir/rosidl_generator_c/qt_ros/action/detail/fibonacci__functions.c.o[0m
+[9.806s] [  7%] [32mBuilding C object CMakeFiles/qt_ros__rosidl_generator_c.dir/rosidl_generator_c/qt_ros/srv/detail/qt_string__functions.c.o[0m
+[9.814s] [  7%] Built target ament_cmake_python_copy_qt_ros
+[9.817s] [35m[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_cpp[0m
+[9.818s] [35m[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_introspection_cpp[0m
+[9.819s] [35m[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_fastrtps_cpp[0m
+[9.849s] [  9%] [32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qt_ros/srv/detail/qt_string__type_support.cpp.o[0m
+[9.850s] [ 11%] [32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qt_ros/srv/qt_string__type_support.cpp.o[0m
+[9.850s] [ 16%] [32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qt_ros/action/detail/fibonacci__type_support.cpp.o[0m
+[9.853s] [ 16%] [32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qt_ros/action/fibonacci__type_support.cpp.o[0m
+[9.856s] [ 19%] [32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qt_ros/srv/detail/dds_fastrtps/qt_string__type_support.cpp.o[0m
+[10.237s] [ 21%] [32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qt_ros/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[10.361s] [ 23%] [32m[1mLinking C shared library libqt_ros__rosidl_generator_c.so[0m
+[10.660s] running egg_info
+[10.663s] writing qt_ros.egg-info/PKG-INFO
+[10.664s] writing dependency_links to qt_ros.egg-info/dependency_links.txt
+[10.665s] writing top-level names to qt_ros.egg-info/top_level.txt
+[10.669s] reading manifest file 'qt_ros.egg-info/SOURCES.txt'
+[10.671s] writing manifest file 'qt_ros.egg-info/SOURCES.txt'
+[10.735s] [ 23%] Built target ament_cmake_python_build_qt_ros_egg
+[10.798s] [ 26%] Built target qt_ros__rosidl_generator_c
+[10.827s] [35m[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_fastrtps_c[0m
+[10.839s] [35m[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_introspection_c[0m
+[10.880s] [ 28%] [32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qt_ros/srv/detail/qt_string__type_support_c.cpp.o[0m
+[10.883s] [ 30%] [32mBuilding C object CMakeFiles/qt_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qt_ros/srv/detail/qt_string__type_support.c.o[0m
+[10.944s] [35m[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_c[0m
+[10.972s] [ 33%] [32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/qt_ros/srv/qt_string__type_support.cpp.o[0m
+[10.997s] [ 35%] [32mBuilding C object CMakeFiles/qt_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qt_ros/action/detail/fibonacci__type_support.c.o[0m
+[11.052s] [ 38%] [32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/qt_ros/action/fibonacci__type_support.cpp.o[0m
+[11.142s] [ 40%] [32m[1mLinking C shared library libqt_ros__rosidl_typesupport_introspection_c.so[0m
+[11.207s] [ 42%] [32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qt_ros/action/detail/fibonacci__type_support_c.cpp.o[0m
+[11.207s] [ 45%] [32m[1mLinking CXX shared library libqt_ros__rosidl_typesupport_c.so[0m
+[11.408s] [ 47%] [32m[1mLinking CXX shared library libqt_ros__rosidl_typesupport_cpp.so[0m
+[11.412s] [ 50%] Built target qt_ros__rosidl_typesupport_introspection_c
+[11.489s] [ 52%] Built target qt_ros__rosidl_typesupport_c
+[11.623s] [ 54%] Built target qt_ros__rosidl_typesupport_cpp
+[11.729s] [ 57%] [32m[1mLinking CXX shared library libqt_ros__rosidl_typesupport_introspection_cpp.so[0m
+[11.869s] [ 59%] [32m[1mLinking CXX shared library libqt_ros__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.977s] [ 64%] [32m[1mLinking CXX shared library libqt_ros__rosidl_typesupport_fastrtps_c.so[0m
+[11.977s] [ 64%] Built target qt_ros__rosidl_typesupport_introspection_cpp
+[12.108s] [ 66%] Built target qt_ros__rosidl_typesupport_fastrtps_cpp
+[12.201s] [ 69%] Built target qt_ros__rosidl_typesupport_fastrtps_c
+[12.227s] [ 69%] Built target qt_ros
+[12.254s] [ 76%] [32mBuilding CXX object CMakeFiles/qt_node.dir/src/main.cpp.o[0m
+[12.254s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.254s] [ 76%] [32mBuilding CXX object CMakeFiles/qt_node.dir/src/my_window.cpp.o[0m
+[13.573s] [ 76%] Built target qt_ros__py
+[13.611s] [ 78%] [32mBuilding C object CMakeFiles/qt_ros__rosidl_generator_py.dir/rosidl_generator_py/qt_ros/srv/_qt_string_s.c.o[0m
+[13.612s] [ 80%] [32mBuilding C object CMakeFiles/qt_ros__rosidl_generator_py.dir/rosidl_generator_py/qt_ros/action/_fibonacci_s.c.o[0m
+[13.990s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/qt_ros/libqt_ros__rosidl_generator_py.so[0m
+[14.225s] [ 83%] Built target qt_ros__rosidl_generator_py
+[14.269s] [ 85%] [32mBuilding C object CMakeFiles/qt_ros__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/qt_ros/_qt_ros_s.ep.rosidl_typesupport_c.c.o[0m
+[14.270s] [ 88%] [32mBuilding C object CMakeFiles/qt_ros__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/qt_ros/_qt_ros_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.272s] [ 90%] [32mBuilding C object CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/qt_ros/_qt_ros_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.566s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/qt_ros/qt_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.566s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/qt_ros/qt_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.570s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/qt_ros/qt_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.736s] [ 97%] Built target qt_ros__rosidl_typesupport_c__pyext
+[14.748s] [ 97%] Built target qt_ros__rosidl_typesupport_fastrtps_c__pyext
+[14.773s] [ 97%] Built target qt_ros__rosidl_typesupport_introspection_c__pyext
+[18.141s] In file included from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/main.cpp:4[m[K:
+[18.142s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:37:39:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ does not name a type
+[18.142s]    37 |     void goal_response_callback(const [01;31m[KGoalHandleFibonacci[m[K::SharedPrt & goalhandle);
+[18.142s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[18.142s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:37:70:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[18.142s]    37 |     void goal_response_callback(const GoalHandleFibonacci::SharedPrt [01;31m[K&[m[K goalhandle);
+[18.142s]       |                                                                      [01;31m[K^[m[K
+[18.142s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:37:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[18.142s]    37 |     void goal_response_callback[34m[K([m[Kconst GoalHandleFibonacci::SharedPrt[01;31m[K [m[K[32m[K&[m[K goalhandle);
+[18.143s]       |                                [34m[K~[m[K                                    [01;31m[K^[m[K[32m[K~[m[K
+[18.143s]       |                                                                     [32m[K)[m[K
+[18.143s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:37:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.143s]    37 |     void goal_response_callback(const GoalHandleFibonacci::SharedPrt [01;31m[K&[m[K goalhandle);
+[18.143s]       |                                                                      [01;31m[K^[m[K
+[18.144s]       |                                                                       [32m[K;[m[K
+[18.147s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:37:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoalhandle[m[K’ does not name a type
+[18.147s]    37 |     void goal_response_callback(const GoalHandleFibonacci::SharedPrt & [01;31m[Kgoalhandle[m[K);
+[18.147s]       |                                                                        [01;31m[K^~~~~~~~~~[m[K
+[18.147s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:38:28:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ has not been declared
+[18.147s]    38 |     void feedback_callback([01;31m[KGoalHandleFibonacci[m[K::SharedPrt,const srd::shared_prt<const Fibonacci::Feedback> feedback);
+[18.147s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[18.149s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:38:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrd[m[K’ does not name a type
+[18.149s]    38 |     void feedback_callback(GoalHandleFibonacci::SharedPrt,const [01;31m[Ksrd[m[K::shared_prt<const Fibonacci::Feedback> feedback);
+[18.149s]       |                                                                 [01;31m[K^~~[m[K
+[18.149s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:38:80:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K<[m[K’ token
+[18.149s]    38 |     void feedback_callback(GoalHandleFibonacci::SharedPrt,const srd::shared_prt[01;31m[K<[m[Kconst Fibonacci::Feedback> feedback);
+[18.149s]       |                                                                                [01;31m[K^[m[K
+[18.149s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:38:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K<[m[K’ token
+[18.150s]    38 |     void feedback_callback[34m[K([m[KGoalHandleFibonacci::SharedPrt,const srd::shared_prt[01;31m[K<[m[Kconst Fibonacci::Feedback> feedback);
+[18.150s]       |                           [34m[K~[m[K                                                    [01;31m[K^[m[K
+[18.150s]       |                                                                                [32m[K)[m[K
+[18.150s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:38:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.150s]    38 |     void feedback_callback(GoalHandleFibonacci::SharedPrt,const srd::[01;31m[Kshared_prt[m[K<const Fibonacci::Feedback> feedback);
+[18.150s]       |                                                                      [01;31m[K^~~~~~~~~~[m[K
+[18.150s]       |                                                                                [32m[K;[m[K
+[18.150s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:38:80:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K<[m[K’ token
+[18.151s]    38 |     void feedback_callback(GoalHandleFibonacci::SharedPrt,const srd::shared_prt[01;31m[K<[m[Kconst Fibonacci::Feedback> feedback);
+[18.151s]       |                                                                                [01;31m[K^[m[K
+[18.155s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:39:32:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ does not name a type
+[18.156s]    39 |     void result_callback(const [01;31m[KGoalHandleFibonacci[m[K::WrappedResult & result);
+[18.156s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[18.156s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:39:67:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[18.156s]    39 |     void result_callback(const GoalHandleFibonacci::WrappedResult [01;31m[K&[m[K result);
+[18.156s]       |                                                                   [01;31m[K^[m[K
+[18.156s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:39:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[18.156s]    39 |     void result_callback[34m[K([m[Kconst GoalHandleFibonacci::WrappedResult[01;31m[K [m[K[32m[K&[m[K result);
+[18.156s]       |                         [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~[m[K
+[18.156s]       |                                                                  [32m[K)[m[K
+[18.157s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:39:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.157s]    39 |     void result_callback(const GoalHandleFibonacci::WrappedResult [01;31m[K&[m[K result);
+[18.157s]       |                                                                   [01;31m[K^[m[K
+[18.157s]       |                                                                    [32m[K;[m[K
+[18.158s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:39:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ does not name a type
+[18.158s]    39 |     void result_callback(const GoalHandleFibonacci::WrappedResult & [01;31m[Kresult[m[K);
+[18.158s]       |                                                                     [01;31m[K^~~~~~[m[K
+[18.173s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:47:40:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ was not declared in this scope
+[18.173s]    47 |     void execute(const std::shared_ptr<[01;31m[KGoalHandleFibonacci[m[K> goal_handle);
+[18.173s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[18.173s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:47:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.174s]    47 |     void execute(const std::shared_ptr<GoalHandleFibonacci[01;31m[K>[m[K goal_handle);
+[18.174s]       |                                                           [01;31m[K^[m[K
+[18.181s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:51:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[18.181s]    51 |     rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+[18.181s]       |                       [01;31m[K^~~~~~~~[m[K
+[18.182s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:51:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.182s]    51 |     rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+[18.182s]       |                                            [01;31m[K^[m[K
+[18.182s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:51:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.182s]    51 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+[18.182s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[18.182s]       |                                                        [32m[K;[m[K
+[18.184s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:51:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[18.185s]    51 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[18.185s]       |                                                         [01;31m[K^~~~~~~~~~[m[K
+[18.185s]       |                                                         [32m[Krmw_publisher_t[m[K
+[18.200s] In file included from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[18.200s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:37:39:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ does not name a type
+[18.200s]    37 |     void goal_response_callback(const [01;31m[KGoalHandleFibonacci[m[K::SharedPrt & goalhandle);
+[18.200s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[18.200s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:37:70:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[18.201s]    37 |     void goal_response_callback(const GoalHandleFibonacci::SharedPrt [01;31m[K&[m[K goalhandle);
+[18.201s]       |                                                                      [01;31m[K^[m[K
+[18.201s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:37:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[18.201s]    37 |     void goal_response_callback[34m[K([m[Kconst GoalHandleFibonacci::SharedPrt[01;31m[K [m[K[32m[K&[m[K goalhandle);
+[18.201s]       |                                [34m[K~[m[K                                    [01;31m[K^[m[K[32m[K~[m[K
+[18.201s]       |                                                                     [32m[K)[m[K
+[18.201s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:37:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.201s]    37 |     void goal_response_callback(const GoalHandleFibonacci::SharedPrt [01;31m[K&[m[K goalhandle);
+[18.201s]       |                                                                      [01;31m[K^[m[K
+[18.202s]       |                                                                       [32m[K;[m[K
+[18.204s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:37:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoalhandle[m[K’ does not name a type
+[18.205s]    37 |     void goal_response_callback(const GoalHandleFibonacci::SharedPrt & [01;31m[Kgoalhandle[m[K);
+[18.205s]       |                                                                        [01;31m[K^~~~~~~~~~[m[K
+[18.205s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:38:28:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ has not been declared
+[18.205s]    38 |     void feedback_callback([01;31m[KGoalHandleFibonacci[m[K::SharedPrt,const srd::shared_prt<const Fibonacci::Feedback> feedback);
+[18.205s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[18.208s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:38:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrd[m[K’ does not name a type
+[18.208s]    38 |     void feedback_callback(GoalHandleFibonacci::SharedPrt,const [01;31m[Ksrd[m[K::shared_prt<const Fibonacci::Feedback> feedback);
+[18.208s]       |                                                                 [01;31m[K^~~[m[K
+[18.209s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:38:80:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K<[m[K’ token
+[18.209s]    38 |     void feedback_callback(GoalHandleFibonacci::SharedPrt,const srd::shared_prt[01;31m[K<[m[Kconst Fibonacci::Feedback> feedback);
+[18.209s]       |                                                                                [01;31m[K^[m[K
+[18.209s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:38:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K<[m[K’ token
+[18.209s]    38 |     void feedback_callback[34m[K([m[KGoalHandleFibonacci::SharedPrt,const srd::shared_prt[01;31m[K<[m[Kconst Fibonacci::Feedback> feedback);
+[18.210s]       |                           [34m[K~[m[K                                                    [01;31m[K^[m[K
+[18.210s]       |                                                                                [32m[K)[m[K
+[18.210s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:38:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.210s]    38 |     void feedback_callback(GoalHandleFibonacci::SharedPrt,const srd::[01;31m[Kshared_prt[m[K<const Fibonacci::Feedback> feedback);
+[18.210s]       |                                                                      [01;31m[K^~~~~~~~~~[m[K
+[18.211s]       |                                                                                [32m[K;[m[K
+[18.211s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:38:80:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K<[m[K’ token
+[18.211s]    38 |     void feedback_callback(GoalHandleFibonacci::SharedPrt,const srd::shared_prt[01;31m[K<[m[Kconst Fibonacci::Feedback> feedback);
+[18.211s]       |                                                                                [01;31m[K^[m[K
+[18.217s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:39:32:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ does not name a type
+[18.217s]    39 |     void result_callback(const [01;31m[KGoalHandleFibonacci[m[K::WrappedResult & result);
+[18.217s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[18.218s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:39:67:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[18.218s]    39 |     void result_callback(const GoalHandleFibonacci::WrappedResult [01;31m[K&[m[K result);
+[18.218s]       |                                                                   [01;31m[K^[m[K
+[18.218s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:39:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[18.218s]    39 |     void result_callback[34m[K([m[Kconst GoalHandleFibonacci::WrappedResult[01;31m[K [m[K[32m[K&[m[K result);
+[18.218s]       |                         [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~[m[K
+[18.218s]       |                                                                  [32m[K)[m[K
+[18.218s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:39:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.219s]    39 |     void result_callback(const GoalHandleFibonacci::WrappedResult [01;31m[K&[m[K result);
+[18.219s]       |                                                                   [01;31m[K^[m[K
+[18.219s]       |                                                                    [32m[K;[m[K
+[18.220s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:39:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ does not name a type
+[18.220s]    39 |     void result_callback(const GoalHandleFibonacci::WrappedResult & [01;31m[Kresult[m[K);
+[18.220s]       |                                                                     [01;31m[K^~~~~~[m[K
+[18.240s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:47:40:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ was not declared in this scope
+[18.240s]    47 |     void execute(const std::shared_ptr<[01;31m[KGoalHandleFibonacci[m[K> goal_handle);
+[18.240s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[18.240s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:47:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.240s]    47 |     void execute(const std::shared_ptr<GoalHandleFibonacci[01;31m[K>[m[K goal_handle);
+[18.240s]       |                                                           [01;31m[K^[m[K
+[18.250s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:51:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[18.250s]    51 |     rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+[18.250s]       |                       [01;31m[K^~~~~~~~[m[K
+[18.250s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:51:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.250s]    51 |     rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+[18.250s]       |                                            [01;31m[K^[m[K
+[18.250s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:51:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.250s]    51 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+[18.250s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[18.251s]       |                                                        [32m[K;[m[K
+[18.255s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:51:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[18.255s]    51 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[18.256s]       |                                                         [01;31m[K^~~~~~~~~~[m[K
+[18.256s]       |                                                         [32m[Krmw_publisher_t[m[K
+[18.340s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:54:27:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ was not declared in this scope
+[18.340s]    54 |     rclcpp_action::Client<[01;31m[KFibonacci[m[K>::SharedPtr client_ptr_;
+[18.340s]       |                           [01;31m[K^~~~~~~~~[m[K
+[18.340s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:54:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.340s]    54 |     rclcpp_action::Client<Fibonacci[01;31m[K>[m[K::SharedPtr client_ptr_;
+[18.341s]       |                                    [01;31m[K^[m[K
+[18.341s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:54:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.341s]    54 |     rclcpp_action::Client<Fibonacci>::[01;31m[KSharedPtr[m[K client_ptr_;
+[18.341s]       |                                       [01;31m[K^~~~~~~~~[m[K
+[18.341s]       |                                                [32m[K;[m[K
+[18.341s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:54:39:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint MyWindow::SharedPtr[m[K’
+[18.342s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:51:47:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint MyWindow::SharedPtr[m[K’
+[18.342s]    51 |     rclcpp::Publisher<std_msgs::msg::String>::[01;36m[KSharedPtr[m[K publisher_;
+[18.342s]       |                                               [01;36m[K^~~~~~~~~[m[K
+[18.344s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:54:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_ptr_[m[K’ does not name a type
+[18.344s]    54 |     rclcpp_action::Client<Fibonacci>::SharedPtr [01;31m[Kclient_ptr_[m[K;
+[18.344s]       |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[18.358s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:55:27:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ was not declared in this scope
+[18.359s]    55 |     rclcpp_action::Server<[01;31m[KFibonacci[m[K>::SharedPtr action_server_
+[18.359s]       |                           [01;31m[K^~~~~~~~~[m[K
+[18.359s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:55:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.359s]    55 |     rclcpp_action::Server<Fibonacci[01;31m[K>[m[K::SharedPtr action_server_
+[18.359s]       |                                    [01;31m[K^[m[K
+[18.359s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:55:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.360s]    55 |     rclcpp_action::Server<Fibonacci>::[01;31m[KSharedPtr[m[K action_server_
+[18.360s]       |                                       [01;31m[K^~~~~~~~~[m[K
+[18.360s]       |                                                [32m[K;[m[K
+[18.360s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:55:39:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint MyWindow::SharedPtr[m[K’
+[18.360s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:51:47:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint MyWindow::SharedPtr[m[K’
+[18.360s]    51 |     rclcpp::Publisher<std_msgs::msg::String>::[01;36m[KSharedPtr[m[K publisher_;
+[18.361s]       |                                               [01;36m[K^~~~~~~~~[m[K
+[18.364s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:55:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ does not name a type; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+[18.364s]    55 |     rclcpp_action::Server<Fibonacci>::SharedPtr [01;31m[Kaction_server_[m[K
+[18.364s]       |                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[18.364s]       |                                                 [32m[Krcl_action_server_t[m[K
+[18.401s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:54:27:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ was not declared in this scope
+[18.402s]    54 |     rclcpp_action::Client<[01;31m[KFibonacci[m[K>::SharedPtr client_ptr_;
+[18.402s]       |                           [01;31m[K^~~~~~~~~[m[K
+[18.402s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:54:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.402s]    54 |     rclcpp_action::Client<Fibonacci[01;31m[K>[m[K::SharedPtr client_ptr_;
+[18.402s]       |                                    [01;31m[K^[m[K
+[18.402s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:54:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.402s]    54 |     rclcpp_action::Client<Fibonacci>::[01;31m[KSharedPtr[m[K client_ptr_;
+[18.402s]       |                                       [01;31m[K^~~~~~~~~[m[K
+[18.402s]       |                                                [32m[K;[m[K
+[18.403s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:54:39:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint MyWindow::SharedPtr[m[K’
+[18.403s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:51:47:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint MyWindow::SharedPtr[m[K’
+[18.403s]    51 |     rclcpp::Publisher<std_msgs::msg::String>::[01;36m[KSharedPtr[m[K publisher_;
+[18.403s]       |                                               [01;36m[K^~~~~~~~~[m[K
+[18.406s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:54:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_ptr_[m[K’ does not name a type
+[18.407s]    54 |     rclcpp_action::Client<Fibonacci>::SharedPtr [01;31m[Kclient_ptr_[m[K;
+[18.407s]       |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[18.415s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:55:27:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ was not declared in this scope
+[18.416s]    55 |     rclcpp_action::Server<[01;31m[KFibonacci[m[K>::SharedPtr action_server_
+[18.416s]       |                           [01;31m[K^~~~~~~~~[m[K
+[18.416s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:55:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.416s]    55 |     rclcpp_action::Server<Fibonacci[01;31m[K>[m[K::SharedPtr action_server_
+[18.416s]       |                                    [01;31m[K^[m[K
+[18.416s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:55:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[18.417s]    55 |     rclcpp_action::Server<Fibonacci>::[01;31m[KSharedPtr[m[K action_server_
+[18.417s]       |                                       [01;31m[K^~~~~~~~~[m[K
+[18.417s]       |                                                [32m[K;[m[K
+[18.417s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:55:39:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint MyWindow::SharedPtr[m[K’
+[18.417s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:51:47:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint MyWindow::SharedPtr[m[K’
+[18.417s]    51 |     rclcpp::Publisher<std_msgs::msg::String>::[01;36m[KSharedPtr[m[K publisher_;
+[18.418s]       |                                               [01;36m[K^~~~~~~~~[m[K
+[18.420s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:55:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ does not name a type; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+[18.420s]    55 |     rclcpp_action::Server<Fibonacci>::SharedPtr [01;31m[Kaction_server_[m[K
+[18.420s]       |                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[18.420s]       |                                                 [32m[Krcl_action_server_t[m[K
+[18.917s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:[m[K In constructor ‘[01m[KMyWindow::MyWindow(rclcpp::Node::SharedPtr, QWidget*)[m[K’:
+[18.917s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublishing_[m[K’?
+[18.918s]    16 |     [01;31m[Kpublisher_[m[K = node_->create_publisher<std_msgs::msg::String>("chatter", 10);
+[18.918s]       |     [01;31m[K^~~~~~~~~~[m[K
+[18.918s]       |     [32m[Kpublishing_[m[K
+[18.931s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:16:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[18.931s]    16 |     publisher_ = node_->create_publisher<[01;31m[Kstd_msgs[m[K::msg::String>("chatter", 10);
+[18.931s]       |                                          [01;31m[K^~~~~~~~[m[K
+[18.931s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:16:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[18.931s]    16 |     publisher_ = node_->[01;31m[Kcreate_publisher<std_msgs::msg::String>[m[K("chatter", 10);
+[18.932s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.932s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:16:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [8], int)[m[K’
+[18.932s]    16 |     publisher_ = [01;31m[Knode_->create_publisher<std_msgs::msg::String>("chatter", 10)[m[K;
+[18.932s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[18.932s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[18.932s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[18.933s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.933s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[18.933s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[18.933s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[18.934s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[18.934s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[18.934s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.934s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:16:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.935s]    16 |     publisher_ = [01;31m[Knode_->create_publisher<std_msgs::msg::String>("chatter", 10)[m[K;
+[18.935s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[18.964s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_ptr_[m[K’ was not declared in this scope
+[18.964s]    20 |     [01;31m[Kclient_ptr_[m[K =node->create_client<qt_ros::action::Fibonacci>(this,"qt_fibonacci");
+[18.964s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[18.966s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:20:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction[m[K’ is not a member of ‘[01m[Kqt_ros[m[K’
+[18.966s]    20 |     client_ptr_ =node->create_client<qt_ros::[01;31m[Kaction[m[K::Fibonacci>(this,"qt_fibonacci");
+[18.966s]       |                                              [01;31m[K^~~~~~[m[K
+[18.966s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:20:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[18.966s]    20 |     client_ptr_ =node->[01;31m[Kcreate_client<qt_ros::action::Fibonacci>[m[K(this,"qt_fibonacci");
+[18.966s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.966s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:20:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_client<<expression error> >(MyWindow*, const char [13])[m[K’
+[18.966s]    20 |     client_ptr_ =[01;31m[Knode->create_client<qt_ros::action::Fibonacci>(this,"qt_fibonacci")[m[K;
+[18.966s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[18.967s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[18.967s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[18.967s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[18.967s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[18.967s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[18.967s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[18.967s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:125:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[18.967s]   125 | [01;36m[KNode[m[K::create_client(
+[18.967s]       | [01;36m[K^~~~[m[K
+[18.968s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:125:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.968s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:20:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.968s]    20 |     client_ptr_ =[01;31m[Knode->create_client<qt_ros::action::Fibonacci>(this,"qt_fibonacci")[m[K;
+[18.968s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[18.982s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+[18.982s]    21 |     [01;31m[Kaction_server[m[K = node->rclcpp_action::create_server<Fibonacci>(
+[18.982s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[18.982s]       |     [32m[Krcl_action_server_t[m[K
+[18.991s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:21:56:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ was not declared in this scope
+[18.991s]    21 |     action_server = node->rclcpp_action::create_server<[01;31m[KFibonacci[m[K>(
+[18.991s]       |                                                        [01;31m[K^~~~~~~~~[m[K
+[18.992s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:21:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::create_server<<expression error> >[m[K’ is not a class member
+[18.992s]    21 |     action_server = node->[01;31m[Krclcpp_action[m[K::create_server<Fibonacci>(
+[18.992s]       |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[18.992s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:24:18:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionServer[m[K’ has not been declared
+[18.992s]    24 |       std::bind(&[01;31m[KFibonacciActionServer[m[K::handle_goal, this, _1, _2),
+[18.993s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[18.993s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:24:60:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[18.993s]    24 |       std::bind(&FibonacciActionServer::handle_goal, this, [01;31m[K_1[m[K, _2),
+[18.993s]       |                                                            [01;31m[K^~[m[K
+[18.994s]       |                                                            [32m[Kstd::placeholders::_1[m[K
+[18.994s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[18.994s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[18.994s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142[m[K,
+[18.994s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+[18.994s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43[m[K,
+[18.994s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:43[m[K,
+[18.995s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+[18.995s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:8[m[K,
+[18.995s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[18.995s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[18.995s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[18.995s]       |                                  [01;36m[K^~[m[K
+[18.995s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:24:64:[m[K [01;31m[Kerror: [m[K‘[01m[K_2[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_2[m[K’?
+[18.995s]    24 |       std::bind(&FibonacciActionServer::handle_goal, this, _1, [01;31m[K_2[m[K),
+[18.995s]       |                                                                [01;31m[K^~[m[K
+[18.996s]       |                                                                [32m[Kstd::placeholders::_2[m[K
+[18.996s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[18.996s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[18.996s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142[m[K,
+[18.996s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+[18.996s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43[m[K,
+[18.996s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:43[m[K,
+[18.996s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+[18.996s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:8[m[K,
+[18.996s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[18.997s] [01m[K/usr/include/c++/11/functional:226:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_2[m[K’ declared here
+[18.997s]   226 |     extern const _Placeholder<2> [01;36m[K_2[m[K;
+[18.997s]       |                                  [01;36m[K^~[m[K
+[18.997s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:25:18:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionServer[m[K’ has not been declared
+[18.997s]    25 |       std::bind(&[01;31m[KFibonacciActionServer[m[K::handle_cancel, this, _1),
+[18.997s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[18.997s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:26:18:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionServer[m[K’ has not been declared
+[18.997s]    26 |       std::bind(&[01;31m[KFibonacciActionServer[m[K::handle_accepted, this, _1));
+[18.998s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[18.998s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:35:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass QVBoxLayout[m[K’ has no member named ‘[01m[Kaddwidget[m[K’; did you mean ‘[01m[KaddWidget[m[K’?
+[18.998s]    35 |     layout->[01;31m[Kaddwidget[m[K(button_3);
+[18.998s]       |             [01;31m[K^~~~~~~~~[m[K
+[18.998s]       |             [32m[KaddWidget[m[K
+[19.004s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[19.004s]    37 |     [01;31m[Ktimer_[m[K = node_->create_wall_timer(
+[19.004s]       |     [01;31m[K^~~~~~[m[K
+[19.004s]       |     [32m[Ktimer_t[m[K
+[19.021s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:43:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kcreate_wall_timer[m[K’
+[19.022s]    43 |     timer_ = this->[01;31m[Kcreate_wall_timer[m[K(
+[19.022s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[19.022s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:45:20:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacciActionClient[m[K’ has not been declared
+[19.022s]    45 |         std::bind(&[01;31m[KFibonacciActionClient[m[K::send_goal, this));
+[19.022s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[19.032s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:[m[K In member function ‘[01m[Kvoid MyWindow::toggle_timer()[m[K’:
+[19.032s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:68:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[19.032s]    68 |         [01;31m[Ktimer_[m[K->reset();                     // start
+[19.032s]       |         [01;31m[K^~~~~~[m[K
+[19.032s]       |         [32m[Ktimer_t[m[K
+[19.040s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[19.040s]    74 |         [01;31m[Ktimer_[m[K->cancel();                    // stop
+[19.040s]       |         [01;31m[K^~~~~~[m[K
+[19.040s]       |         [32m[Ktimer_t[m[K
+[19.048s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:[m[K In member function ‘[01m[Kvoid MyWindow::handleButtonClick_callback()[m[K’:
+[19.048s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:83:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[19.048s]    83 |     [01;31m[Ktimer_[m[K->reset();
+[19.048s]       |     [01;31m[K^~~~~~[m[K
+[19.048s]       |     [32m[Ktimer_t[m[K
+[19.049s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+[19.049s]    85 |     [01;31m[Kstd_msgs[m[K::msg::String message;
+[19.049s]       |     [01;31m[K^~~~~~~~[m[K
+[19.056s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:86:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[19.056s]    86 |     [01;31m[Kmessage[m[K.data = "Hello from Qt Button!";
+[19.056s]       |     [01;31m[K^~~~~~~[m[K
+[19.064s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:88:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublishing_[m[K’?
+[19.064s]    88 |     [01;31m[Kpublisher_[m[K->publish(message);
+[19.064s]       |     [01;31m[K^~~~~~~~~~[m[K
+[19.065s]       |     [32m[Kpublishing_[m[K
+[19.072s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:[m[K In member function ‘[01m[Kvoid MyWindow::send_goal()[m[K’:
+[19.072s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:143:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Ktimer_[m[K’
+[19.072s]   143 |     this->[01;31m[Ktimer_[m[K->cancel();
+[19.072s]       |           [01;31m[K^~~~~~[m[K
+[19.073s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:144:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kclient_prt_[m[K’; did you mean ‘[01m[Kclient_req[m[K’?
+[19.073s]   144 |     if (this->[01;31m[Kclient_prt_[m[K->wait_for_action_server()){
+[19.073s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[19.073s]       |               [32m[Kclient_req[m[K
+[19.073s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.075s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.075s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.075s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:145:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.075s]   145 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(),"Action server not available after waiting");
+[19.075s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[19.075s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:145:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.076s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:145:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.076s]   145 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(),"Action server not available after waiting");
+[19.076s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[19.076s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.077s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.077s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.077s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:145:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.077s]   145 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(),"Action server not available after waiting");
+[19.077s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[19.078s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:145:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.078s]   145 |         RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(),"Action server not available after waiting");
+[19.078s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[19.078s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:149:5:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ has not been declared
+[19.078s]   149 |     [01;31m[KFibonacci[m[K::Goal goal_msg ;
+[19.078s]       |     [01;31m[K^~~~~~~~~[m[K
+[19.088s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:150:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_msg[m[K’ was not declared in this scope
+[19.088s]   150 |     [01;31m[Kgoal_msg[m[K.order =10 ;
+[19.088s]       |     [01;31m[K^~~~~~~~[m[K
+[19.088s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.090s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.091s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.091s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:152:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.091s]   152 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(),"sending goal");
+[19.091s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[19.092s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:152:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.092s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:152:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.092s]   152 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"sending goal");
+[19.092s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[19.092s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.092s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.092s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.092s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.092s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.092s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.093s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.093s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.093s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:152:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.093s]   152 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(),"sending goal");
+[19.093s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[19.094s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:152:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.094s]   152 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(),"sending goal");
+[19.094s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[19.101s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:154:27:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ was not declared in this scope
+[19.101s]   154 |     rclcpp_action::Client<[01;31m[KFibonacci[m[K>::SendGoalOption() send_goal_option ;
+[19.101s]       |                           [01;31m[K^~~~~~~~~[m[K
+[19.101s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:154:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.101s]   154 |     rclcpp_action::Client<Fibonacci[01;31m[K>[m[K::SendGoalOption() send_goal_option ;
+[19.101s]       |                                    [01;31m[K^[m[K
+[19.103s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:154:53:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[19.103s]   154 |     rclcpp_action::Client<Fibonacci>::SendGoalOption[01;35m[K()[m[K send_goal_option ;
+[19.103s]       |                                                     [01;35m[K^~[m[K
+[19.103s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:154:53:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[19.103s]   154 |     rclcpp_action::Client<Fibonacci>::SendGoalOption[01;36m[K()[m[K send_goal_option ;
+[19.103s]       |                                                     [01;36m[K^~[m[K
+[19.104s]       |                                                     [31m[K--[m[K
+[19.104s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:154:53:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[19.104s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:154:56:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Ksend_goal_option[m[K’
+[19.104s]   154 |     rclcpp_action::Client<Fibonacci>::SendGoalOption() [01;31m[Ksend_goal_option[m[K ;
+[19.104s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[19.117s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:155:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_goal_options[m[K’ was not declared in this scope
+[19.117s]   155 |     [01;31m[Ksend_goal_options[m[K.goal_response_callback=
+[19.117s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[19.125s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:161:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kclient_prt_[m[K’; did you mean ‘[01m[Kclient_req[m[K’?
+[19.125s]   161 |     this->[01;31m[Kclient_prt_[m[K->async_send_goal(goal_msg,send_goal_options);
+[19.126s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[19.126s]       |           [32m[Kclient_req[m[K
+[19.137s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:[m[K At global scope:
+[19.137s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:164:45:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ does not name a type
+[19.137s]   164 | void MyWindow::goal_response_callback(const [01;31m[KGoalHandleFibonacci[m[K::SharedPrt & goalhandle)
+[19.137s]       |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.137s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:164:76:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[19.137s]   164 | void MyWindow::goal_response_callback(const GoalHandleFibonacci::SharedPrt [01;31m[K&[m[K goalhandle)
+[19.138s]       |                                                                            [01;31m[K^[m[K
+[19.138s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:164:75:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[19.138s]   164 | void MyWindow::goal_response_callback[34m[K([m[Kconst GoalHandleFibonacci::SharedPrt[01;31m[K [m[K[32m[K&[m[K goalhandle)
+[19.138s]       |                                      [34m[K~[m[K                                    [01;31m[K^[m[K[32m[K~[m[K
+[19.138s]       |                                                                           [32m[K)[m[K
+[19.138s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:164:78:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kgoalhandle[m[K’
+[19.138s]   164 | void MyWindow::goal_response_callback(const GoalHandleFibonacci::SharedPrt & [01;31m[Kgoalhandle[m[K)
+[19.138s]       |                                                                              [01;31m[K^~~~~~~~~~[m[K
+[19.138s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:173:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kfeedback_callback[m[K’ declared void
+[19.138s]   173 | void [01;31m[KMyWindow[m[K::feedback_callback(GoalHandleFibonacci::SharedPrt,
+[19.139s]       |      [01;31m[K^~~~~~~~[m[K
+[19.139s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:173:34:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ has not been declared
+[19.139s]   173 | void MyWindow::feedback_callback([01;31m[KGoalHandleFibonacci[m[K::SharedPrt,
+[19.139s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.139s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:174:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[19.139s]   174 |     [01;31m[Kconst[m[K srd::shared_prt<const Fibonacci::Feedback> feedback)
+[19.139s]       |     [01;31m[K^~~~~[m[K
+[19.149s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:185:38:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ does not name a type
+[19.149s]   185 | void MyWindow::result_callback(const [01;31m[KGoalHandleFibonacci[m[K::WrappedResult & result)
+[19.149s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.149s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:185:73:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[19.149s]   185 | void MyWindow::result_callback(const GoalHandleFibonacci::WrappedResult [01;31m[K&[m[K result)
+[19.149s]       |                                                                         [01;31m[K^[m[K
+[19.150s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:185:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[19.150s]   185 | void MyWindow::result_callback[34m[K([m[Kconst GoalHandleFibonacci::WrappedResult[01;31m[K [m[K[32m[K&[m[K result)
+[19.150s]       |                               [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~[m[K
+[19.150s]       |                                                                        [32m[K)[m[K
+[19.150s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:185:75:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kresult[m[K’
+[19.150s]   185 | void MyWindow::result_callback(const GoalHandleFibonacci::WrappedResult & [01;31m[Kresult[m[K)
+[19.150s]       |                                                                           [01;31m[K^~~~~~[m[K
+[19.151s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:205:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::shared_prt[m[K’ has not been declared
+[19.151s]   205 |     const rclcpp_action::GoalUUID & uuid,[01;31m[Kstd[m[K::shared_prt<const Fibonacci::Goal> goal)
+[19.151s]       |                                          [01;31m[K^~~[m[K
+[19.151s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:205:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[19.151s]   205 |     const rclcpp_action::GoalUUID & uuid,std::shared_prt[01;31m[K<[m[Kconst Fibonacci::Goal> goal)
+[19.151s]       |                                                         [01;31m[K^[m[K
+[19.151s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.152s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.152s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.152s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:[m[K In function ‘[01m[Krclcpp_action::GoalResponse handle_goal(const GoalUUID&, int)[m[K’:
+[19.153s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:207:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[19.153s]   207 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"received goal request with order %d",goal-> order);
+[19.153s]       |                 [01;31m[K^~~~[m[K
+[19.153s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:207:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[19.153s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:207:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.153s]   207 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"received goal request with order %d",goal-> order);
+[19.153s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[19.153s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.155s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.155s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.155s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:207:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[19.155s]   207 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"received goal request with order %d",goal-> order);
+[19.155s]       |                 [01;31m[K^~~~[m[K
+[19.155s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:207:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[19.155s]   207 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"received goal request with order %d",goal-> order);
+[19.155s]       |                 [01;31m[K^~~~[m[K
+[19.156s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:207:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+[19.156s]   207 |     RCLCPP_INFO(this->get_logger(),"received goal request with order %d",[01;31m[Kgoal[m[K-> order);
+[19.156s]       |                                                                          [01;31m[K^~~~[m[K
+[19.156s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:208:12:[m[K [01;31m[Kerror: [m[K‘[01m[Krclpp_action[m[K’ has not been declared
+[19.156s]   208 |     return [01;31m[Krclpp_action[m[K::GoalResponse::ACCEPT_AND_EXECUTE;
+[19.157s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[19.167s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:[m[K At global scope:
+[19.168s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:212:27:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ was not declared in this scope
+[19.168s]   212 |     const std::shared_ptr<[01;31m[KGoalHandleFibonacci[m[K> goal_handle)
+[19.168s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.168s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:212:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.168s]   212 |     const std::shared_ptr<GoalHandleFibonacci[01;31m[K>[m[K goal_handle)
+[19.169s]       |                                              [01;31m[K^[m[K
+[19.169s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.169s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.169s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.169s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.170s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.171s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.171s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:[m[K In function ‘[01m[Krclcpp_action::CancelResponse handle_cancel(int)[m[K’:
+[19.171s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:214:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[19.171s]   214 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received request to cancel goal");
+[19.171s]       |                 [01;31m[K^~~~[m[K
+[19.171s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:214:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[19.171s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:214:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.171s]   214 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received request to cancel goal");
+[19.172s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[19.172s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.173s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.173s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.173s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:214:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[19.174s]   214 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received request to cancel goal");
+[19.174s]       |                 [01;31m[K^~~~[m[K
+[19.174s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:214:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[19.174s]   214 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received request to cancel goal");
+[19.174s]       |                 [01;31m[K^~~~[m[K
+[19.177s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:[m[K At global scope:
+[19.178s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:219:69:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ was not declared in this scope
+[19.178s]   219 | rclcpp_action::CancelResponse handle_accepted(const std::shared_ptr<[01;31m[KGoalHandleFibonacci[m[K> goal_handle)
+[19.178s]       |                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.178s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:219:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.179s]   219 | rclcpp_action::CancelResponse handle_accepted(const std::shared_ptr<GoalHandleFibonacci[01;31m[K>[m[K goal_handle)
+[19.179s]       |                                                                                        [01;31m[K^[m[K
+[19.179s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:[m[K In function ‘[01m[Krclcpp_action::CancelResponse handle_accepted(int)[m[K’:
+[19.180s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:221:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kplaceholder[m[K’ is not a namespace-name; did you mean ‘[01m[Kplaceholders[m[K’?
+[19.180s]   221 |     using namespace std::[01;31m[Kplaceholder[m[K;
+[19.180s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[19.180s]       |                          [32m[Kplaceholders[m[K
+[19.180s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:222:46:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[19.180s]   222 |     std::thread{std::bind(&MyWindow::execute,[01;31m[Kthis[m[K,_1),goal_handle}.detach();
+[19.180s]       |                                              [01;31m[K^~~~[m[K
+[19.180s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:222:51:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[19.181s]   222 |     std::thread{std::bind(&MyWindow::execute,this,[01;31m[K_1[m[K),goal_handle}.detach();
+[19.181s]       |                                                   [01;31m[K^~[m[K
+[19.181s]       |                                                   [32m[Kstd::placeholders::_1[m[K
+[19.181s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[19.181s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[19.181s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142[m[K,
+[19.182s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+[19.182s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43[m[K,
+[19.182s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:43[m[K,
+[19.182s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+[19.182s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:8[m[K,
+[19.182s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.182s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[19.182s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[19.182s]       |                                  [01;36m[K^~[m[K
+[19.183s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:222:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::thread::thread(<brace-enclosed initializer list>)[m[K’
+[19.183s]   222 |     std::thread{std::bind(&MyWindow::execute,this,_1),goal_handle[01;31m[K}[m[K.detach();
+[19.183s]       |                                                                  [01;31m[K^[m[K
+[19.183s] In file included from [01m[K/usr/include/c++/11/thread:43[m[K,
+[19.183s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:6[m[K,
+[19.183s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.183s] [01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Callable, class ... _Args, class> std::thread::thread(_Callable&&, _Args&& ...)[m[K’
+[19.183s]   127 |       [01;36m[Kthread[m[K(_Callable&& __f, _Args&&... __args)
+[19.183s]       |       [01;36m[K^~~~~~[m[K
+[19.184s] [01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[19.184s] [01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread(std::thread&&)[m[K’
+[19.184s]   157 |     [01;36m[Kthread[m[K(thread&& __t) noexcept
+[19.184s]       |     [01;36m[K^~~~~~[m[K
+[19.184s] [01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[19.184s] [01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread()[m[K’
+[19.184s]   121 |     [01;36m[Kthread[m[K() noexcept = default;
+[19.184s]       |     [01;36m[K^~~~~~[m[K
+[19.184s] [01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[19.184s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:222:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MyWindow::execute(int)[m[K’ is private within this context
+[19.185s]   222 |     std::thread{std::bind(&MyWindow::[01;31m[Kexecute[m[K,this,_1),goal_handle}.detach();
+[19.185s]       |                                      [01;31m[K^~~~~~~[m[K
+[19.185s] In file included from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.185s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:47:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+[19.185s]    47 |     void [01;36m[Kexecute[m[K(const std::shared_ptr<GoalHandleFibonacci> goal_handle);
+[19.185s]       |          [01;36m[K^~~~~~~[m[K
+[19.185s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:223:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[19.185s]   223 | [01;35m[K}[m[K
+[19.185s]       | [01;35m[K^[m[K
+[19.199s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:[m[K At global scope:
+[19.199s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:225:46:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ was not declared in this scope
+[19.199s]   225 | void MyWindow::execute(const std::shared_ptr<[01;31m[KGoalHandleFibonacci[m[K> goal_handle)
+[19.200s]       |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[19.200s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:225:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.200s]   225 | void MyWindow::execute(const std::shared_ptr<GoalHandleFibonacci[01;31m[K>[m[K goal_handle)
+[19.200s]       |                                                                 [01;31m[K^[m[K
+[19.200s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.202s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.202s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.202s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.202s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:[m[K In member function ‘[01m[Kvoid MyWindow::execute(int)[m[K’:
+[19.202s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:227:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.202s]   227 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(),"Executing goal");
+[19.202s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[19.203s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:227:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.203s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:227:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.203s]   227 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"Executing goal");
+[19.203s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[19.203s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.204s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.204s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.204s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:227:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.204s]   227 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(),"Executing goal");
+[19.205s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[19.205s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:227:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.205s]   227 |     RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(),"Executing goal");
+[19.205s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[19.205s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:229:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[19.205s]   229 |     const auto goal= goal_handle[01;31m[K->[m[Kget_goal();
+[19.205s]       |                                 [01;31m[K^~[m[K
+[19.212s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:230:38:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ was not declared in this scope
+[19.212s]   230 |     auto feedback = std::make_shared<[01;31m[KFibonacci[m[K::Feedback>();
+[19.212s]       |                                      [01;31m[K^~~~~~~~~[m[K
+[19.213s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:230:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[19.213s]   230 |     auto feedback = std::[01;31m[Kmake_shared<Fibonacci::Feedback>[m[K();
+[19.213s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.213s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:230:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[19.214s]   230 |     auto feedback = [01;31m[Kstd::make_shared<Fibonacci::Feedback>()[m[K;
+[19.214s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[19.214s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[19.214s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:4[m[K,
+[19.215s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.215s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[19.216s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[19.216s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[19.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[19.216s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:230:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.216s]   230 |     auto feedback = [01;31m[Kstd::make_shared<Fibonacci::Feedback>()[m[K;
+[19.217s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[19.217s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:234:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[19.217s]   234 |     auto result = std::[01;31m[Kmake_shared<Fibonacci::result>[m[K();
+[19.217s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.217s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:234:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<Fibonacci>()[m[K’
+[19.217s]   234 |     auto result = [01;31m[Kstd::make_shared<Fibonacci::result>()[m[K;
+[19.217s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[19.217s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[19.217s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:4[m[K,
+[19.218s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.218s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[19.218s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[19.218s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[19.218s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[19.218s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:238:23:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[19.218s]   238 |         if(goal_handle[01;31m[K->[m[Kis_canceling())
+[19.218s]       |                       [01;31m[K^~[m[K
+[19.218s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:241:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[19.219s]   241 |             goal_handle[01;31m[K->[m[Kcanceled(result)
+[19.219s]       |                        [01;31m[K^~[m[K
+[19.219s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:247:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[19.219s]   247 |         goal_handle[01;31m[K->[m[Kpublish_feedback(feedback);
+[19.219s]       |                    [01;31m[K^~[m[K
+[19.219s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.220s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.220s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.220s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:248:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.221s]   248 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publish feedback");
+[19.221s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[19.221s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:248:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.221s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:248:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.221s]   248 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publish feedback");
+[19.221s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[19.221s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.221s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.221s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.222s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.222s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.222s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.222s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.222s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.223s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.223s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.223s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.223s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.223s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.224s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:248:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.224s]   248 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publish feedback");
+[19.224s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[19.224s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:248:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.225s]   248 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publish feedback");
+[19.225s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[19.225s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:256:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[19.225s]   256 |         goal_handle[01;31m[K->[m[Ksucceed(result);
+[19.225s]       |                    [01;31m[K^~[m[K
+[19.226s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.228s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.228s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.228s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:257:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.228s]   257 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Goal succeeded");
+[19.229s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[19.229s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:257:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.229s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:257:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.229s]   257 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Goal succeeded");
+[19.229s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[19.230s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.231s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.231s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.231s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.231s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.232s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.232s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.232s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp:11[m[K,
+[19.232s]                  from [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:1[m[K:
+[19.232s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:257:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.233s]   257 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Goal succeeded");
+[19.233s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[19.233s] [01m[K/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp:257:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[19.233s]   257 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Goal succeeded");
+[19.233s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[19.870s] gmake[2]: *** [CMakeFiles/qt_node.dir/build.make:76: CMakeFiles/qt_node.dir/src/main.cpp.o] Error 1
+[19.870s] gmake[2]: *** Waiting for unfinished jobs....
+[20.716s] gmake[2]: *** [CMakeFiles/qt_node.dir/build.make:90: CMakeFiles/qt_node.dir/src/my_window.cpp.o] Error 1
+[20.716s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/qt_node.dir/all] Error 2
+[20.717s] gmake: *** [Makefile:146: all] Error 2
+[20.720s] Invoked command in '/home/maddy/qt_ros_workspace/build/qt_ros' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maddy/qt_ros_workspace/build/qt_ros -- -j8 -l8

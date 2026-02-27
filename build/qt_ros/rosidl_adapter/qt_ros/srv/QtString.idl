@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from qt_ros/srv/QtString.srv
+// generated code does not contain a copyright notice
+
+
+module qt_ros {
+  module srv {
+    struct QtString_Request {
+      string req;
+    };
+    struct QtString_Response {
+      string message;
+    };
+  };
+};

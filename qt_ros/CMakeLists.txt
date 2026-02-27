@@ -5,13 +5,18 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(Qt5 REQUIRED COMPONENTS Widgets)
+find_package(rclcpp_action REQUIRED)
+find_package(unique_identifier_msgs REQUIRED)
+find_package(action_msgs REQUIRED)
 
 # Generate service
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/QtString.srv"
-)
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "action/QtString.action"
+  "actions/Fibonacci.action"
+  DEPENDENCIES 
+    builtin_interfaces
+    unique_identifier_msgs
+    action_msgs  
 )
 
 ament_export_dependencies(rosidl_default_runtime)
@@ -27,7 +32,14 @@ target_include_directories(qt_node PUBLIC
 )
 
 target_link_libraries(qt_node Qt5::Widgets)
-ament_target_dependencies(qt_node rclcpp std_msgs)
+
+ament_target_dependencies(qt_node
+  rclcpp
+  rclcpp_action
+  std_msgs
+  action_msgs
+  unique_identifier_msgs
+)
 
 # IMPORTANT: link service interfaces
 rosidl_target_interfaces(qt_node

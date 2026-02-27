@@ -1,0 +1,7 @@
+{
+  "package_name": "qt_ros",
+  "non_idl_tuples": [
+    "/home/maddy/qt_ros_workspace/qt_ros:srv/QtString.srv",
+    "/home/maddy/qt_ros_workspace/qt_ros:actions/Fibonacci.action"
+  ]
+}

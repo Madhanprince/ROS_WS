@@ -5,7 +5,7 @@
       "includePath": [
         "${workspaceFolder}/**",
         // ROS 2 core
-        "/opt/ros/humble/include",
+        "/opt/ros/humble/include"
       ],
       "defines": [
         "ROS_PACKAGE_NAME=\"action_tutorials_cpp\""

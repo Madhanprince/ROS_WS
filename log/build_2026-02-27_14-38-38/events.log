@@ -1,0 +1,303 @@
+[0.000000] (-) TimerEvent: {}
+[0.000898] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.001278] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.001375] (qt_ros) JobQueued: {'identifier': 'qt_ros', 'dependencies': OrderedDict()}
+[0.001441] (qt_ros) JobStarted: {'identifier': 'qt_ros'}
+[0.010895] (qt_ros) JobProgress: {'identifier': 'qt_ros', 'progress': 'cmake'}
+[0.013085] (qt_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/maddy/qt_ros_workspace/qt_ros', '-DCMAKE_INSTALL_PREFIX=/home/maddy/qt_ros_workspace/install/qt_ros'], 'cwd': '/home/maddy/qt_ros_workspace/build/qt_ros', 'env': OrderedDict([('USER', 'maddy'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy'), ('LESS', '-R'), ('ZSH', '/home/maddy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maddy'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/804_interop'), ('NAME', 'RMCCORPDE-DT024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.15.6-hotspot/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/PostgreSQL/17/bin:/mnt/c/sonar-scanner-7.1.0.4889-windows-x64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/RMCPDEDT024/AppData/Local/Python/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/maddy/qt_ros_workspace/build/qt_ros'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098628] (-) TimerEvent: {}
+[0.198453] (qt_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198801] (-) TimerEvent: {}
+[0.299155] (-) TimerEvent: {}
+[0.399608] (-) TimerEvent: {}
+[0.500084] (-) TimerEvent: {}
+[0.600547] (-) TimerEvent: {}
+[0.701035] (-) TimerEvent: {}
+[0.801494] (-) TimerEvent: {}
+[0.902010] (-) TimerEvent: {}
+[0.923374] (qt_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.002163] (-) TimerEvent: {}
+[1.102661] (-) TimerEvent: {}
+[1.203133] (-) TimerEvent: {}
+[1.303599] (-) TimerEvent: {}
+[1.404070] (-) TimerEvent: {}
+[1.444563] (qt_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.504229] (-) TimerEvent: {}
+[1.604681] (-) TimerEvent: {}
+[1.644192] (qt_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.653852] (qt_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.654273] (qt_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.654795] (qt_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.658642] (qt_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.704838] (-) TimerEvent: {}
+[1.805321] (-) TimerEvent: {}
+[1.875175] (qt_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.884786] (qt_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.885198] (qt_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.885881] (qt_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.888350] (qt_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.905586] (-) TimerEvent: {}
+[2.006029] (-) TimerEvent: {}
+[2.063715] (qt_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.106205] (-) TimerEvent: {}
+[2.162565] (qt_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.206375] (-) TimerEvent: {}
+[2.306815] (-) TimerEvent: {}
+[2.379618] (qt_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.385034] (qt_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.395159] (qt_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.406960] (-) TimerEvent: {}
+[2.410776] (qt_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.430117] (qt_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.480286] (qt_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.483120] (qt_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.507108] (-) TimerEvent: {}
+[2.607516] (-) TimerEvent: {}
+[2.708011] (-) TimerEvent: {}
+[2.808449] (-) TimerEvent: {}
+[2.908915] (-) TimerEvent: {}
+[3.009381] (-) TimerEvent: {}
+[3.109856] (-) TimerEvent: {}
+[3.210439] (-) TimerEvent: {}
+[3.310927] (-) TimerEvent: {}
+[3.411445] (-) TimerEvent: {}
+[3.511924] (-) TimerEvent: {}
+[3.612460] (-) TimerEvent: {}
+[3.712956] (-) TimerEvent: {}
+[3.813445] (-) TimerEvent: {}
+[3.913977] (-) TimerEvent: {}
+[4.014543] (-) TimerEvent: {}
+[4.115056] (-) TimerEvent: {}
+[4.215557] (-) TimerEvent: {}
+[4.316012] (-) TimerEvent: {}
+[4.369063] (qt_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.416190] (-) TimerEvent: {}
+[4.516680] (-) TimerEvent: {}
+[4.617165] (-) TimerEvent: {}
+[4.717615] (-) TimerEvent: {}
+[4.818134] (-) TimerEvent: {}
+[4.918669] (-) TimerEvent: {}
+[5.019253] (-) TimerEvent: {}
+[5.119789] (-) TimerEvent: {}
+[5.220407] (-) TimerEvent: {}
+[5.320934] (-) TimerEvent: {}
+[5.421467] (-) TimerEvent: {}
+[5.521950] (-) TimerEvent: {}
+[5.622433] (-) TimerEvent: {}
+[5.722944] (-) TimerEvent: {}
+[5.823444] (-) TimerEvent: {}
+[5.923978] (-) TimerEvent: {}
+[6.024471] (-) TimerEvent: {}
+[6.125014] (-) TimerEvent: {}
+[6.225625] (-) TimerEvent: {}
+[6.326201] (-) TimerEvent: {}
+[6.426835] (-) TimerEvent: {}
+[6.484640] (qt_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.527015] (-) TimerEvent: {}
+[6.627573] (-) TimerEvent: {}
+[6.728051] (-) TimerEvent: {}
+[6.828549] (-) TimerEvent: {}
+[6.929045] (-) TimerEvent: {}
+[7.029552] (-) TimerEvent: {}
+[7.130094] (-) TimerEvent: {}
+[7.230617] (-) TimerEvent: {}
+[7.331082] (-) TimerEvent: {}
+[7.431935] (-) TimerEvent: {}
+[7.532442] (-) TimerEvent: {}
+[7.632883] (-) TimerEvent: {}
+[7.733420] (-) TimerEvent: {}
+[7.833907] (-) TimerEvent: {}
+[7.934414] (-) TimerEvent: {}
+[8.034874] (-) TimerEvent: {}
+[8.135335] (-) TimerEvent: {}
+[8.235872] (-) TimerEvent: {}
+[8.336368] (-) TimerEvent: {}
+[8.436870] (-) TimerEvent: {}
+[8.537377] (-) TimerEvent: {}
+[8.637841] (-) TimerEvent: {}
+[8.738332] (-) TimerEvent: {}
+[8.838801] (-) TimerEvent: {}
+[8.939327] (-) TimerEvent: {}
+[9.039966] (-) TimerEvent: {}
+[9.140450] (-) TimerEvent: {}
+[9.240911] (-) TimerEvent: {}
+[9.341379] (-) TimerEvent: {}
+[9.441849] (-) TimerEvent: {}
+[9.542377] (-) TimerEvent: {}
+[9.642862] (-) TimerEvent: {}
+[9.743324] (-) TimerEvent: {}
+[9.843767] (-) TimerEvent: {}
+[9.944227] (-) TimerEvent: {}
+[10.044686] (-) TimerEvent: {}
+[10.145186] (-) TimerEvent: {}
+[10.245666] (-) TimerEvent: {}
+[10.251976] (qt_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.260719] (qt_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.345819] (-) TimerEvent: {}
+[10.446324] (-) TimerEvent: {}
+[10.461608] (qt_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.462270] (qt_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.546405] (-) TimerEvent: {}
+[10.646867] (-) TimerEvent: {}
+[10.667977] (qt_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.669343] (qt_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.731242] (qt_ros) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[10.746987] (-) TimerEvent: {}
+[10.847406] (-) TimerEvent: {}
+[10.872695] (qt_ros) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.17 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[10.947580] (-) TimerEvent: {}
+[11.048092] (-) TimerEvent: {}
+[11.148544] (-) TimerEvent: {}
+[11.220088] (qt_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[11.248705] (-) TimerEvent: {}
+[11.349199] (-) TimerEvent: {}
+[11.449728] (-) TimerEvent: {}
+[11.550224] (-) TimerEvent: {}
+[11.584503] (qt_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.650444] (-) TimerEvent: {}
+[11.725389] (qt_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.750602] (-) TimerEvent: {}
+[11.851048] (-) TimerEvent: {}
+[11.925329] (qt_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[11.926493] (qt_ros) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.951200] (-) TimerEvent: {}
+[12.051649] (-) TimerEvent: {}
+[12.152220] (-) TimerEvent: {}
+[12.252728] (-) TimerEvent: {}
+[12.353389] (-) TimerEvent: {}
+[12.453947] (-) TimerEvent: {}
+[12.534443] (qt_ros) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[12.534738] (qt_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.534868] (qt_ros) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.534993] (qt_ros) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[12.554114] (-) TimerEvent: {}
+[12.559393] (qt_ros) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.654285] (-) TimerEvent: {}
+[12.665207] (qt_ros) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[12.665535] (qt_ros) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[12.665659] (qt_ros) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[12.665773] (qt_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[12.665883] (qt_ros) StderrLine: {'line': b'  CMakeLists.txt:44 (rosidl_target_interfaces)\n'}
+[12.665993] (qt_ros) StderrLine: {'line': b'\n'}
+[12.666102] (qt_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[12.675365] (qt_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.746176] (qt_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[12.754426] (-) TimerEvent: {}
+[12.763896] (qt_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/maddy/qt_ros_workspace/build/qt_ros\n'}
+[12.778145] (qt_ros) CommandEnded: {'returncode': 0}
+[12.781763] (qt_ros) JobProgress: {'identifier': 'qt_ros', 'progress': 'build'}
+[12.781877] (qt_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maddy/qt_ros_workspace/build/qt_ros', '--', '-j8', '-l8'], 'cwd': '/home/maddy/qt_ros_workspace/build/qt_ros', 'env': OrderedDict([('USER', 'maddy'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy'), ('LESS', '-R'), ('ZSH', '/home/maddy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maddy'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/804_interop'), ('NAME', 'RMCCORPDE-DT024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.15.6-hotspot/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/PostgreSQL/17/bin:/mnt/c/sonar-scanner-7.1.0.4889-windows-x64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/RMCPDEDT024/AppData/Local/Python/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/maddy/qt_ros_workspace/build/qt_ros'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.836266] (qt_ros) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.845430] (qt_ros) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.854581] (-) TimerEvent: {}
+[12.860453] (qt_ros) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_qt_ros\n'}
+[12.954754] (-) TimerEvent: {}
+[13.055266] (-) TimerEvent: {}
+[13.155787] (-) TimerEvent: {}
+[13.227741] (qt_ros) StdoutLine: {'line': b'running egg_info\n'}
+[13.228606] (qt_ros) StdoutLine: {'line': b'creating qt_ros.egg-info\n'}
+[13.229140] (qt_ros) StdoutLine: {'line': b'writing qt_ros.egg-info/PKG-INFO\n'}
+[13.229542] (qt_ros) StdoutLine: {'line': b'writing dependency_links to qt_ros.egg-info/dependency_links.txt\n'}
+[13.229893] (qt_ros) StdoutLine: {'line': b'writing top-level names to qt_ros.egg-info/top_level.txt\n'}
+[13.230370] (qt_ros) StdoutLine: {'line': b"writing manifest file 'qt_ros.egg-info/SOURCES.txt'\n"}
+[13.232245] (qt_ros) StdoutLine: {'line': b"reading manifest file 'qt_ros.egg-info/SOURCES.txt'\n"}
+[13.232968] (qt_ros) StdoutLine: {'line': b"writing manifest file 'qt_ros.egg-info/SOURCES.txt'\n"}
+[13.255958] (-) TimerEvent: {}
+[13.267198] (qt_ros) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_qt_ros_egg\n'}
+[13.356101] (-) TimerEvent: {}
+[13.456631] (-) TimerEvent: {}
+[13.560504] (-) TimerEvent: {}
+[13.617788] (qt_ros) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/qt_ros__rosidl_generator_c.dir/rosidl_generator_c/qt_ros/srv/detail/qt_string__functions.c.o\x1b[0m\n'}
+[13.620129] (qt_ros) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/qt_ros__rosidl_generator_c.dir/rosidl_generator_c/qt_ros/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[13.648909] (qt_ros) StdoutLine: {'line': b'[  9%] Built target qt_ros__cpp\n'}
+[13.662567] (-) TimerEvent: {}
+[13.670969] (qt_ros) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.671472] (qt_ros) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.677189] (qt_ros) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.766412] (-) TimerEvent: {}
+[13.867038] (-) TimerEvent: {}
+[13.898168] (qt_ros) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libqt_ros__rosidl_generator_c.so\x1b[0m\n'}
+[13.967211] (-) TimerEvent: {}
+[14.067724] (-) TimerEvent: {}
+[14.145737] (qt_ros) StdoutLine: {'line': b'[ 19%] Built target qt_ros__rosidl_generator_c\n'}
+[14.166773] (qt_ros) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.168451] (qt_ros) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.168717] (-) TimerEvent: {}
+[14.172348] (qt_ros) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.268903] (-) TimerEvent: {}
+[14.369495] (-) TimerEvent: {}
+[14.470250] (-) TimerEvent: {}
+[14.575785] (-) TimerEvent: {}
+[14.578851] (qt_ros) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qt_ros/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[14.591364] (qt_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qt_ros/srv/qt_string__type_support.cpp.o\x1b[0m\n'}
+[14.679378] (-) TimerEvent: {}
+[14.733686] (qt_ros) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qt_ros/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[14.768543] (qt_ros) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qt_ros/srv/detail/qt_string__type_support.cpp.o\x1b[0m\n'}
+[14.787688] (-) TimerEvent: {}
+[14.889103] (-) TimerEvent: {}
+[14.950457] (qt_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maddy/qt_ros_workspace/build/qt_ros/rosidl_typesupport_introspection_cpp/qt_ros/action/detail/fibonacci__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[14.950863] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/build/qt_ros/rosidl_generator_cpp/qt_ros/action/detail/fibonacci__struct.hpp:1007:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kaction_msgs/srv/cancel_goal.hpp: No such file or directory\n'}
+[14.951101] (qt_ros) StderrLine: {'line': b' 1007 | #include \x1b[01;31m\x1b[K"action_msgs/srv/cancel_goal.hpp"\x1b[m\x1b[K\n'}
+[14.951323] (qt_ros) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.951518] (qt_ros) StderrLine: {'line': b'compilation terminated.\n'}
+[14.956814] (qt_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/qt_ros__rosidl_typesupport_introspection_cpp.dir/build.make:115: CMakeFiles/qt_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qt_ros/action/detail/fibonacci__type_support.cpp.o] Error 1\n'}
+[14.957221] (qt_ros) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[14.964809] (qt_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maddy/qt_ros_workspace/build/qt_ros/rosidl_typesupport_cpp/qt_ros/action/fibonacci__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[14.965229] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/build/qt_ros/rosidl_generator_cpp/qt_ros/action/detail/fibonacci__struct.hpp:1007:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kaction_msgs/srv/cancel_goal.hpp: No such file or directory\n'}
+[14.965523] (qt_ros) StderrLine: {'line': b' 1007 | #include \x1b[01;31m\x1b[K"action_msgs/srv/cancel_goal.hpp"\x1b[m\x1b[K\n'}
+[14.965799] (qt_ros) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.970438] (qt_ros) StderrLine: {'line': b'compilation terminated.\n'}
+[14.975472] (qt_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/build.make:107: CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/qt_ros/action/fibonacci__type_support.cpp.o] Error 1\n'}
+[14.976780] (qt_ros) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[14.989288] (-) TimerEvent: {}
+[15.080847] (qt_ros) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qt_ros/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[15.086819] (qt_ros) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qt_ros/srv/detail/dds_fastrtps/qt_string__type_support.cpp.o\x1b[0m\n'}
+[15.089486] (-) TimerEvent: {}
+[15.189968] (-) TimerEvent: {}
+[15.268520] (qt_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maddy/qt_ros_workspace/build/qt_ros/rosidl_typesupport_fastrtps_cpp/qt_ros/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[15.274389] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maddy/qt_ros_workspace/build/qt_ros/rosidl_typesupport_fastrtps_cpp/qt_ros/action/detail/dds_fastrtps/fibonacci__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[15.274730] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/build/qt_ros/rosidl_generator_cpp/qt_ros/action/detail/fibonacci__struct.hpp:1007:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kaction_msgs/srv/cancel_goal.hpp: No such file or directory\n'}
+[15.275037] (qt_ros) StderrLine: {'line': b' 1007 | #include \x1b[01;31m\x1b[K"action_msgs/srv/cancel_goal.hpp"\x1b[m\x1b[K\n'}
+[15.275257] (qt_ros) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.275452] (qt_ros) StderrLine: {'line': b'compilation terminated.\n'}
+[15.275621] (qt_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_cpp.dir/build.make:115: CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/qt_ros/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o] Error 1\n'}
+[15.275807] (qt_ros) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[15.290699] (-) TimerEvent: {}
+[15.314364] (qt_ros) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/qt_ros/srv/qt_string__type_support.cpp.o\x1b[0m\n'}
+[15.327538] (qt_ros) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/qt_ros/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[15.374875] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/build/qt_ros/rosidl_typesupport_c/qt_ros/action/fibonacci__type_support.cpp:996:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kaction_msgs/msg/goal_status_array.h: No such file or directory\n'}
+[15.375601] (qt_ros) StderrLine: {'line': b'  996 | #include \x1b[01;31m\x1b[K"action_msgs/msg/goal_status_array.h"\x1b[m\x1b[K\n'}
+[15.375818] (qt_ros) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.376011] (qt_ros) StderrLine: {'line': b'compilation terminated.\n'}
+[15.379708] (qt_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/qt_ros__rosidl_typesupport_c.dir/build.make:107: CMakeFiles/qt_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/qt_ros/action/fibonacci__type_support.cpp.o] Error 1\n'}
+[15.380100] (qt_ros) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[15.380601] (qt_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:345: CMakeFiles/qt_ros__rosidl_typesupport_c.dir/all] Error 2\n'}
+[15.381065] (qt_ros) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[15.390867] (-) TimerEvent: {}
+[15.466376] (qt_ros) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/qt_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qt_ros/srv/detail/qt_string__type_support.c.o\x1b[0m\n'}
+[15.467973] (qt_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/qt_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/qt_ros/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[15.491017] (-) TimerEvent: {}
+[15.494745] (qt_ros) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qt_ros/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[15.495514] (qt_ros) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/qt_ros/srv/detail/qt_string__type_support_c.cpp.o\x1b[0m\n'}
+[15.591408] (-) TimerEvent: {}
+[15.603689] (qt_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:397: CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[15.623318] (qt_ros) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libqt_ros__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.691588] (-) TimerEvent: {}
+[15.792385] (-) TimerEvent: {}
+[15.888472] (qt_ros) StdoutLine: {'line': b'[ 57%] Built target qt_ros__rosidl_typesupport_introspection_c\n'}
+[15.892577] (-) TimerEvent: {}
+[15.993287] (-) TimerEvent: {}
+[16.001956] (qt_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:371: CMakeFiles/qt_ros__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[16.093450] (-) TimerEvent: {}
+[16.193958] (-) TimerEvent: {}
+[16.208994] (qt_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[16.294123] (-) TimerEvent: {}
+[16.365997] (qt_ros) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libqt_ros__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.394549] (-) TimerEvent: {}
+[16.495021] (-) TimerEvent: {}
+[16.584237] (qt_ros) StdoutLine: {'line': b'[ 59%] Built target qt_ros__rosidl_typesupport_fastrtps_c\n'}
+[16.586169] (qt_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.591244] (qt_ros) CommandEnded: {'returncode': 2}
+[16.595221] (-) TimerEvent: {}
+[16.608011] (qt_ros) JobEnded: {'identifier': 'qt_ros', 'rc': 2}
+[16.619254] (-) EventReactorShutdown: {}
