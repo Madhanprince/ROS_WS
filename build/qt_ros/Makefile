@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maddy/qt_ros_workspace/qt_ros
+CMAKE_SOURCE_DIR = /home/maddy/qt_ros_workspace/src/qt_ros
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/maddy/qt_ros_workspace/build/qt_ros
@@ -391,19 +391,6 @@ qt_ros__rosidl_typesupport_c__pyext: cmake_check_build_system
 qt_ros__rosidl_typesupport_c__pyext/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_ros__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/qt_ros__rosidl_typesupport_c__pyext.dir/build
 .PHONY : qt_ros__rosidl_typesupport_c__pyext/fast
-
-#=============================================================================
-# Target rules for targets named qt_node
-
-# Build rule for target.
-qt_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_node
-.PHONY : qt_node
-
-# fast build rule for target.
-qt_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_node.dir/build.make CMakeFiles/qt_node.dir/build
-.PHONY : qt_node/fast
 
 #=============================================================================
 # Target rules for targets named qt_ros__py
@@ -874,54 +861,6 @@ rosidl_typesupport_introspection_cpp/qt_ros/srv/detail/qt_string__type_support.c
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_ros__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/qt_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/qt_ros/srv/detail/qt_string__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/qt_ros/srv/detail/qt_string__type_support.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_node.dir/build.make CMakeFiles/qt_node.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_node.dir/build.make CMakeFiles/qt_node.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_node.dir/build.make CMakeFiles/qt_node.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
-src/my_window.o: src/my_window.cpp.o
-.PHONY : src/my_window.o
-
-# target to build an object file
-src/my_window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_node.dir/build.make CMakeFiles/qt_node.dir/src/my_window.cpp.o
-.PHONY : src/my_window.cpp.o
-
-src/my_window.i: src/my_window.cpp.i
-.PHONY : src/my_window.i
-
-# target to preprocess a source file
-src/my_window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_node.dir/build.make CMakeFiles/qt_node.dir/src/my_window.cpp.i
-.PHONY : src/my_window.cpp.i
-
-src/my_window.s: src/my_window.cpp.s
-.PHONY : src/my_window.s
-
-# target to generate assembly for a file
-src/my_window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_node.dir/build.make CMakeFiles/qt_node.dir/src/my_window.cpp.s
-.PHONY : src/my_window.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -942,7 +881,6 @@ help:
 	@echo "... qt_ros__py"
 	@echo "... qt_ros_uninstall"
 	@echo "... uninstall"
-	@echo "... qt_node"
 	@echo "... qt_ros__rosidl_generator_c"
 	@echo "... qt_ros__rosidl_generator_py"
 	@echo "... qt_ros__rosidl_typesupport_c"
@@ -1011,12 +949,6 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/qt_ros/srv/detail/qt_string__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/qt_ros/srv/detail/qt_string__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/qt_ros/srv/detail/qt_string__type_support.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
-	@echo "... src/my_window.o"
-	@echo "... src/my_window.i"
-	@echo "... src/my_window.s"
 .PHONY : help
 
 

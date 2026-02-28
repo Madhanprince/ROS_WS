@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maddy/qt_ros_workspace/qt_ros
+CMAKE_SOURCE_DIR = /home/maddy/qt_ros_workspace/src/qt_ros
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/maddy/qt_ros_workspace/build/qt_ros
@@ -150,6 +150,6 @@ CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/clean:
 
 CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/qt_ros/action/fibonacci__type_support.cpp
 CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/qt_ros/srv/qt_string__type_support.cpp
-	cd /home/maddy/qt_ros_workspace/build/qt_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maddy/qt_ros_workspace/qt_ros /home/maddy/qt_ros_workspace/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros/CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maddy/qt_ros_workspace/build/qt_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maddy/qt_ros_workspace/src/qt_ros /home/maddy/qt_ros_workspace/src/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros/CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/qt_ros__rosidl_typesupport_cpp.dir/depend
 

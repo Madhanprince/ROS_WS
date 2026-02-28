@@ -1,7 +1,7 @@
 CMakeFiles/qt_node.dir/src/my_window.cpp.o: \
- /home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp \
+ /home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp \
  /usr/include/stdc-predef.h \
- /home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp \
+ /home/maddy/qt_ros_workspace/src/qt_ros/include/qt_ros/my_window.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -412,7 +412,7 @@ qt_ros_BINARY_DIR:STATIC=/home/maddy/qt_ros_workspace/build/qt_ros
 qt_ros_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-qt_ros_SOURCE_DIR:STATIC=/home/maddy/qt_ros_workspace/qt_ros
+qt_ros_SOURCE_DIR:STATIC=/home/maddy/qt_ros_workspace/src/qt_ros
 
 //Dependencies for the target
 qt_ros__rosidl_generator_c_LIB_DEPENDS:STATIC=general;builtin_interfaces::builtin_interfaces__rosidl_generator_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_c;general;action_msgs::action_msgs__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
@@ -656,7 +656,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/maddy/qt_ros_workspace/qt_ros
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/maddy/qt_ros_workspace/src/qt_ros
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

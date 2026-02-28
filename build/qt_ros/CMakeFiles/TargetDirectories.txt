@@ -15,7 +15,6 @@
 /home/maddy/qt_ros_workspace/build/qt_ros/CMakeFiles/qt_ros__rosidl_typesupport_fastrtps_c__pyext.dir
 /home/maddy/qt_ros_workspace/build/qt_ros/CMakeFiles/qt_ros__rosidl_typesupport_introspection_c__pyext.dir
 /home/maddy/qt_ros_workspace/build/qt_ros/CMakeFiles/qt_ros__rosidl_typesupport_c__pyext.dir
-/home/maddy/qt_ros_workspace/build/qt_ros/CMakeFiles/qt_node.dir
 /home/maddy/qt_ros_workspace/build/qt_ros/CMakeFiles/test.dir
 /home/maddy/qt_ros_workspace/build/qt_ros/CMakeFiles/edit_cache.dir
 /home/maddy/qt_ros_workspace/build/qt_ros/CMakeFiles/rebuild_cache.dir

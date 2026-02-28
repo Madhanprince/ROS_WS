@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/maddy/qt_ros_workspace/qt_ros
+# Source directory: /home/maddy/qt_ros_workspace/src/qt_ros
 # Build directory: /home/maddy/qt_ros_workspace/build/qt_ros
 # 
 # This file includes the relevant testing commands required for 

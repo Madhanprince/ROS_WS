@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maddy/qt_ros_workspace/qt_ros
+CMAKE_SOURCE_DIR = /home/maddy/qt_ros_workspace/src/qt_ros
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/maddy/qt_ros_workspace/build/qt_ros
@@ -147,6 +147,6 @@ qt_ros__py/CMakeFiles/qt_ros__py.dir/clean:
 .PHONY : qt_ros__py/CMakeFiles/qt_ros__py.dir/clean
 
 qt_ros__py/CMakeFiles/qt_ros__py.dir/depend:
-	cd /home/maddy/qt_ros_workspace/build/qt_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maddy/qt_ros_workspace/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros/qt_ros__py /home/maddy/qt_ros_workspace/build/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros/qt_ros__py /home/maddy/qt_ros_workspace/build/qt_ros/qt_ros__py/CMakeFiles/qt_ros__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maddy/qt_ros_workspace/build/qt_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maddy/qt_ros_workspace/src/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros/qt_ros__py /home/maddy/qt_ros_workspace/build/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros/qt_ros__py /home/maddy/qt_ros_workspace/build/qt_ros/qt_ros__py/CMakeFiles/qt_ros__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : qt_ros__py/CMakeFiles/qt_ros__py.dir/depend
 

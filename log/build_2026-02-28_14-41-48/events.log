@@ -1,0 +1,342 @@
+[0.000000] (-) TimerEvent: {}
+[0.000543] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000633] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000695] (qt_ros) JobQueued: {'identifier': 'qt_ros', 'dependencies': OrderedDict()}
+[0.000728] (qt_ros) JobStarted: {'identifier': 'qt_ros'}
+[0.011177] (qt_ros) JobProgress: {'identifier': 'qt_ros', 'progress': 'cmake'}
+[0.012189] (qt_ros) JobProgress: {'identifier': 'qt_ros', 'progress': 'build'}
+[0.013176] (qt_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maddy/qt_ros_workspace/build/qt_ros', '--', '-j8', '-l8'], 'cwd': '/home/maddy/qt_ros_workspace/build/qt_ros', 'env': OrderedDict([('USER', 'maddy'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy/qt_ros_workspace/src'), ('LESS', '-R'), ('ZSH', '/home/maddy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/maddy/qt_ros_workspace/install'), ('LOGNAME', 'maddy'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/344_interop'), ('NAME', 'RMCCORPDE-DT024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.15.6-hotspot/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/PostgreSQL/17/bin:/mnt/c/sonar-scanner-7.1.0.4889-windows-x64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/RMCPDEDT024/AppData/Local/Python/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/maddy/qt_ros_workspace/build/qt_ros'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.048376] (qt_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098508] (-) TimerEvent: {}
+[0.191979] (qt_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.198661] (-) TimerEvent: {}
+[0.299461] (-) TimerEvent: {}
+[0.400151] (-) TimerEvent: {}
+[0.428197] (qt_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.431625] (qt_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.439378] (qt_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.451551] (qt_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.467306] (qt_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500271] (-) TimerEvent: {}
+[0.508152] (qt_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.509758] (qt_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600393] (-) TimerEvent: {}
+[0.700775] (-) TimerEvent: {}
+[0.801176] (-) TimerEvent: {}
+[0.901632] (-) TimerEvent: {}
+[1.002065] (-) TimerEvent: {}
+[1.102498] (-) TimerEvent: {}
+[1.203026] (-) TimerEvent: {}
+[1.303417] (-) TimerEvent: {}
+[1.403857] (-) TimerEvent: {}
+[1.504293] (-) TimerEvent: {}
+[1.604829] (-) TimerEvent: {}
+[1.705201] (-) TimerEvent: {}
+[1.805636] (-) TimerEvent: {}
+[1.906140] (-) TimerEvent: {}
+[2.006572] (-) TimerEvent: {}
+[2.107055] (-) TimerEvent: {}
+[2.207562] (-) TimerEvent: {}
+[2.308217] (-) TimerEvent: {}
+[2.409518] (-) TimerEvent: {}
+[2.509926] (-) TimerEvent: {}
+[2.610354] (-) TimerEvent: {}
+[2.710754] (-) TimerEvent: {}
+[2.811203] (-) TimerEvent: {}
+[2.911656] (-) TimerEvent: {}
+[3.012062] (-) TimerEvent: {}
+[3.112469] (-) TimerEvent: {}
+[3.212895] (-) TimerEvent: {}
+[3.313300] (-) TimerEvent: {}
+[3.413715] (-) TimerEvent: {}
+[3.514096] (-) TimerEvent: {}
+[3.614511] (-) TimerEvent: {}
+[3.714898] (-) TimerEvent: {}
+[3.815291] (-) TimerEvent: {}
+[3.915676] (-) TimerEvent: {}
+[4.016061] (-) TimerEvent: {}
+[4.116482] (-) TimerEvent: {}
+[4.216902] (-) TimerEvent: {}
+[4.317276] (-) TimerEvent: {}
+[4.417645] (-) TimerEvent: {}
+[4.518062] (-) TimerEvent: {}
+[4.618526] (-) TimerEvent: {}
+[4.719043] (-) TimerEvent: {}
+[4.819554] (-) TimerEvent: {}
+[4.920111] (-) TimerEvent: {}
+[5.020539] (-) TimerEvent: {}
+[5.120959] (-) TimerEvent: {}
+[5.221407] (-) TimerEvent: {}
+[5.321863] (-) TimerEvent: {}
+[5.422322] (-) TimerEvent: {}
+[5.522787] (-) TimerEvent: {}
+[5.623275] (-) TimerEvent: {}
+[5.723764] (-) TimerEvent: {}
+[5.824163] (-) TimerEvent: {}
+[5.924582] (-) TimerEvent: {}
+[6.025004] (-) TimerEvent: {}
+[6.125443] (-) TimerEvent: {}
+[6.225885] (-) TimerEvent: {}
+[6.326327] (-) TimerEvent: {}
+[6.426814] (-) TimerEvent: {}
+[6.527318] (-) TimerEvent: {}
+[6.627763] (-) TimerEvent: {}
+[6.728122] (-) TimerEvent: {}
+[6.828495] (-) TimerEvent: {}
+[6.928984] (-) TimerEvent: {}
+[7.029463] (-) TimerEvent: {}
+[7.129877] (-) TimerEvent: {}
+[7.230286] (-) TimerEvent: {}
+[7.330699] (-) TimerEvent: {}
+[7.431158] (-) TimerEvent: {}
+[7.531552] (-) TimerEvent: {}
+[7.631963] (-) TimerEvent: {}
+[7.732362] (-) TimerEvent: {}
+[7.807871] (qt_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.832447] (-) TimerEvent: {}
+[7.865938] (qt_ros) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.932600] (-) TimerEvent: {}
+[7.996414] (qt_ros) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.17 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[8.032708] (-) TimerEvent: {}
+[8.133145] (-) TimerEvent: {}
+[8.233539] (-) TimerEvent: {}
+[8.333980] (-) TimerEvent: {}
+[8.334506] (qt_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.434155] (-) TimerEvent: {}
+[8.534554] (-) TimerEvent: {}
+[8.635003] (-) TimerEvent: {}
+[8.695353] (qt_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.735153] (-) TimerEvent: {}
+[8.833951] (qt_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.835290] (-) TimerEvent: {}
+[8.859545] (qt_ros) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.885116] (qt_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.885389] (qt_ros) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.885538] (qt_ros) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.914315] (qt_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.935414] (-) TimerEvent: {}
+[8.964579] (qt_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[8.982514] (qt_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/maddy/qt_ros_workspace/build/qt_ros\n'}
+[9.019731] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_generator_c\x1b[0m\n'}
+[9.035318] (qt_ros) StdoutLine: {'line': b'[ 10%] Built target qt_ros__rosidl_generator_c\n'}
+[9.035561] (-) TimerEvent: {}
+[9.035725] (qt_ros) StdoutLine: {'line': b'[ 12%] Built target qt_ros__cpp\n'}
+[9.050557] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.050983] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.051181] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[9.054449] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_c\x1b[0m\n'}
+[9.054823] (qt_ros) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_qt_ros\n'}
+[9.075176] (qt_ros) StdoutLine: {'line': b'[ 23%] Built target qt_ros__rosidl_typesupport_introspection_c\n'}
+[9.075563] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.075754] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.075941] (qt_ros) StdoutLine: {'line': b'[ 33%] Built target qt_ros__rosidl_typesupport_introspection_cpp\n'}
+[9.077111] (qt_ros) StdoutLine: {'line': b'[ 43%] Built target qt_ros__rosidl_typesupport_c\n'}
+[9.081382] (qt_ros) StdoutLine: {'line': b'[ 53%] Built target qt_ros__rosidl_typesupport_fastrtps_c\n'}
+[9.094413] (qt_ros) StdoutLine: {'line': b'[ 64%] Built target qt_ros__rosidl_typesupport_fastrtps_cpp\n'}
+[9.095571] (qt_ros) StdoutLine: {'line': b'[ 74%] Built target qt_ros__rosidl_typesupport_cpp\n'}
+[9.120089] (qt_ros) StdoutLine: {'line': b'[ 74%] Built target qt_ros\n'}
+[9.135679] (-) TimerEvent: {}
+[9.146668] (qt_ros) StdoutLine: {'line': b'[ 76%] Built target qt_ros__py\n'}
+[9.160738] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_generator_py\x1b[0m\n'}
+[9.185083] (qt_ros) StdoutLine: {'line': b'[ 84%] Built target qt_ros__rosidl_generator_py\n'}
+[9.204310] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[9.204645] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[9.205725] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_ros__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[9.229828] (qt_ros) StdoutLine: {'line': b'[ 89%] Built target qt_ros__rosidl_typesupport_c__pyext\n'}
+[9.230531] (qt_ros) StdoutLine: {'line': b'[100%] Built target qt_ros__rosidl_typesupport_introspection_c__pyext\n'}
+[9.230741] (qt_ros) StdoutLine: {'line': b'[100%] Built target qt_ros__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.235774] (-) TimerEvent: {}
+[9.336183] (-) TimerEvent: {}
+[9.436575] (-) TimerEvent: {}
+[9.464953] (qt_ros) StdoutLine: {'line': b'running egg_info\n'}
+[9.465842] (qt_ros) StdoutLine: {'line': b'writing qt_ros.egg-info/PKG-INFO\n'}
+[9.466160] (qt_ros) StdoutLine: {'line': b'writing dependency_links to qt_ros.egg-info/dependency_links.txt\n'}
+[9.466428] (qt_ros) StdoutLine: {'line': b'writing top-level names to qt_ros.egg-info/top_level.txt\n'}
+[9.469026] (qt_ros) StdoutLine: {'line': b"reading manifest file 'qt_ros.egg-info/SOURCES.txt'\n"}
+[9.469796] (qt_ros) StdoutLine: {'line': b"writing manifest file 'qt_ros.egg-info/SOURCES.txt'\n"}
+[9.500438] (qt_ros) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_qt_ros_egg\n'}
+[9.515893] (qt_ros) CommandEnded: {'returncode': 0}
+[9.517553] (qt_ros) JobProgress: {'identifier': 'qt_ros', 'progress': 'install'}
+[9.527822] (qt_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maddy/qt_ros_workspace/build/qt_ros'], 'cwd': '/home/maddy/qt_ros_workspace/build/qt_ros', 'env': OrderedDict([('USER', 'maddy'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy/qt_ros_workspace/src'), ('LESS', '-R'), ('ZSH', '/home/maddy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/maddy/qt_ros_workspace/install'), ('LOGNAME', 'maddy'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/344_interop'), ('NAME', 'RMCCORPDE-DT024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.15.6-hotspot/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/PostgreSQL/17/bin:/mnt/c/sonar-scanner-7.1.0.4889-windows-x64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/RMCPDEDT024/AppData/Local/Python/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/maddy/qt_ros_workspace/build/qt_ros'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.536709] (-) TimerEvent: {}
+[9.539822] (qt_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.540543] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/ament_index/resource_index/rosidl_interfaces/qt_ros\n'}
+[9.540871] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros\n'}
+[9.541438] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv\n'}
+[9.541696] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/qt_string.h\n'}
+[9.541959] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail\n'}
+[9.542182] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__functions.h\n'}
+[9.542489] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__type_support.h\n'}
+[9.542600] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__struct.h\n'}
+[9.542855] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__functions.c\n'}
+[9.543210] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action\n'}
+[9.543459] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail\n'}
+[9.543819] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__struct.h\n'}
+[9.544184] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__functions.c\n'}
+[9.544639] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__type_support.h\n'}
+[9.544749] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__functions.h\n'}
+[9.544956] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/fibonacci.h\n'}
+[9.545063] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg\n'}
+[9.545164] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.545420] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/library_path.sh\n'}
+[9.545714] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/library_path.dsv\n'}
+[9.546004] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_generator_c.so\n'}
+[9.546636] (qt_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_generator_c.so" to ""\n'}
+[9.547092] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros\n'}
+[9.547250] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv\n'}
+[9.547448] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail\n'}
+[9.547645] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__rosidl_typesupport_fastrtps_c.h\n'}
+[9.547950] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action\n'}
+[9.548294] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail\n'}
+[9.548401] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[9.548548] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg\n'}
+[9.548744] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.548941] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_fastrtps_c.so\n'}
+[9.549393] (qt_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.549801] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros\n'}
+[9.550083] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv\n'}
+[9.550327] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/qt_string.hpp\n'}
+[9.550728] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail\n'}
+[9.550883] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__builder.hpp\n'}
+[9.551148] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__struct.hpp\n'}
+[9.551377] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__type_support.hpp\n'}
+[9.551565] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__traits.hpp\n'}
+[9.551989] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action\n'}
+[9.552093] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail\n'}
+[9.552194] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__traits.hpp\n'}
+[9.552294] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__builder.hpp\n'}
+[9.552424] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__type_support.hpp\n'}
+[9.552606] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__struct.hpp\n'}
+[9.552721] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/fibonacci.hpp\n'}
+[9.552981] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg\n'}
+[9.553302] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.553539] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros\n'}
+[9.553760] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv\n'}
+[9.553993] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail\n'}
+[9.554236] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/dds_fastrtps\n'}
+[9.554431] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.554892] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action\n'}
+[9.555333] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail\n'}
+[9.555659] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/dds_fastrtps\n'}
+[9.555964] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.556165] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg\n'}
+[9.556299] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.556602] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.556788] (qt_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.557016] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros\n'}
+[9.557239] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv\n'}
+[9.557478] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail\n'}
+[9.557671] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__rosidl_typesupport_introspection_c.h\n'}
+[9.557867] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__type_support.c\n'}
+[9.558105] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action\n'}
+[9.558297] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail\n'}
+[9.558492] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[9.558958] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__type_support.c\n'}
+[9.559225] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg\n'}
+[9.559353] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.559540] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_introspection_c.so\n'}
+[9.559778] (qt_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.560065] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_c.so\n'}
+[9.560166] (qt_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_c.so" to ""\n'}
+[9.560267] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros\n'}
+[9.560510] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv\n'}
+[9.560731] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail\n'}
+[9.560961] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.561198] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__type_support.cpp\n'}
+[9.561391] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action\n'}
+[9.561837] (qt_ros) StdoutLine: {'line': b'-- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail\n'}
+[9.562036] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.562238] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__type_support.cpp\n'}
+[9.562448] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_introspection_cpp.so\n'}
+[9.562638] (qt_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.562902] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_cpp.so\n'}
+[9.563266] (qt_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_cpp.so" to ""\n'}
+[9.563367] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/pythonpath.sh\n'}
+[9.563465] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/pythonpath.dsv\n'}
+[9.563562] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros-0.0.0-py3.10.egg-info\n'}
+[9.563832] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.564063] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.564356] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.564749] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.565030] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros\n'}
+[9.565333] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.565591] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.565854] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/libqt_ros__rosidl_generator_py.so\n'}
+[9.566115] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/srv\n'}
+[9.566431] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/srv/_qt_string.py\n'}
+[9.566708] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/srv/_qt_string_s.c\n'}
+[9.567020] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/srv/__init__.py\n'}
+[9.567492] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/_qt_ros_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.567857] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/_qt_ros_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.568071] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/_qt_ros_s.ep.rosidl_typesupport_c.c\n'}
+[9.568431] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/action\n'}
+[9.568617] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/action/_fibonacci.py\n'}
+[9.568993] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/action/__init__.py\n'}
+[9.569250] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/action/_fibonacci_s.c\n'}
+[9.569628] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/__init__.py\n'}
+[9.569738] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.622617] (qt_ros) StdoutLine: {'line': b"Listing '/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros'...\n"}
+[9.622956] (qt_ros) StdoutLine: {'line': b"Compiling '/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/__init__.py'...\n"}
+[9.623158] (qt_ros) StdoutLine: {'line': b"Listing '/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/action'...\n"}
+[9.623342] (qt_ros) StdoutLine: {'line': b"Compiling '/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/action/__init__.py'...\n"}
+[9.623530] (qt_ros) StdoutLine: {'line': b"Compiling '/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/action/_fibonacci.py'...\n"}
+[9.623723] (qt_ros) StdoutLine: {'line': b"Listing '/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/srv'...\n"}
+[9.623913] (qt_ros) StdoutLine: {'line': b"Compiling '/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/srv/__init__.py'...\n"}
+[9.624102] (qt_ros) StdoutLine: {'line': b"Compiling '/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/srv/_qt_string.py'...\n"}
+[9.628571] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.629146] (qt_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.629527] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.630134] (qt_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.630521] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.631221] (qt_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.631514] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_generator_py.so\n'}
+[9.632137] (qt_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_generator_py.so" to ""\n'}
+[9.632638] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/srv/QtString.idl\n'}
+[9.633165] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/action/Fibonacci.idl\n'}
+[9.633462] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/srv/QtString.srv\n'}
+[9.633755] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/srv/QtString_Request.msg\n'}
+[9.634080] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/srv/QtString_Response.msg\n'}
+[9.634556] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/actions/Fibonacci.action\n'}
+[9.635062] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/ament_index/resource_index/package_run_dependencies/qt_ros\n'}
+[9.635581] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/ament_index/resource_index/parent_prefix_path/qt_ros\n'}
+[9.635833] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/ament_prefix_path.sh\n'}
+[9.636133] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/ament_prefix_path.dsv\n'}
+[9.636493] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/path.sh\n'}
+[9.636660] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/path.dsv\n'}
+[9.636923] (-) TimerEvent: {}
+[9.637153] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/local_setup.bash\n'}
+[9.637427] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/local_setup.sh\n'}
+[9.637661] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/local_setup.zsh\n'}
+[9.638160] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/local_setup.dsv\n'}
+[9.638342] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/package.dsv\n'}
+[9.638666] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/ament_index/resource_index/packages/qt_ros\n'}
+[9.639180] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_generator_cExport.cmake\n'}
+[9.639538] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.639997] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.640251] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.640676] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_generator_cppExport.cmake\n'}
+[9.640837] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.641171] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.641643] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.641803] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.642370] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_cExport.cmake\n'}
+[9.642531] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.642769] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.643272] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.643443] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_cppExport.cmake\n'}
+[9.643750] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.643912] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_generator_pyExport.cmake\n'}
+[9.644178] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.644478] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/rosidl_cmake-extras.cmake\n'}
+[9.644781] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.644938] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.645232] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.645696] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.645858] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.646156] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.646330] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_rosConfig.cmake\n'}
+[9.646530] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_rosConfig-version.cmake\n'}
+[9.646809] (qt_ros) StdoutLine: {'line': b'-- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/package.xml\n'}
+[9.650802] (qt_ros) CommandEnded: {'returncode': 0}
+[9.686088] (qt_ros) JobEnded: {'identifier': 'qt_ros', 'rc': 0}
+[9.687764] (-) EventReactorShutdown: {}

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maddy/qt_ros_workspace/qt_ros
+CMAKE_SOURCE_DIR = /home/maddy/qt_ros_workspace/src/qt_ros
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/maddy/qt_ros_workspace/build/qt_ros
@@ -66,10 +66,10 @@ include CMakeFiles/qt_ros.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/qt_ros.dir/progress.make
 
-CMakeFiles/qt_ros: /home/maddy/qt_ros_workspace/qt_ros/srv/QtString.srv
+CMakeFiles/qt_ros: /home/maddy/qt_ros_workspace/src/qt_ros/srv/QtString.srv
 CMakeFiles/qt_ros: rosidl_cmake/srv/QtString_Request.msg
 CMakeFiles/qt_ros: rosidl_cmake/srv/QtString_Response.msg
-CMakeFiles/qt_ros: /home/maddy/qt_ros_workspace/qt_ros/actions/Fibonacci.action
+CMakeFiles/qt_ros: /home/maddy/qt_ros_workspace/src/qt_ros/actions/Fibonacci.action
 CMakeFiles/qt_ros: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/qt_ros: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/qt_ros: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
@@ -91,6 +91,6 @@ CMakeFiles/qt_ros.dir/clean:
 .PHONY : CMakeFiles/qt_ros.dir/clean
 
 CMakeFiles/qt_ros.dir/depend:
-	cd /home/maddy/qt_ros_workspace/build/qt_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maddy/qt_ros_workspace/qt_ros /home/maddy/qt_ros_workspace/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros/CMakeFiles/qt_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maddy/qt_ros_workspace/build/qt_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maddy/qt_ros_workspace/src/qt_ros /home/maddy/qt_ros_workspace/src/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros /home/maddy/qt_ros_workspace/build/qt_ros/CMakeFiles/qt_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/qt_ros.dir/depend
 

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7145c5b8369daf8dd437.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "qt_ros__py",
+					"jsonFile" : "directory-qt_ros__py-44d1b05926e9b3000c28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/maddy/qt_ros_workspace/build/qt_ros/qt_ros__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "qt_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_qt_ros_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_qt_ros_egg-a2951e85c47800504440.json",
+					"name" : "ament_cmake_python_build_qt_ros_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_qt_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_qt_ros-81329e07d36dcfd728b5.json",
+					"name" : "ament_cmake_python_copy_qt_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros-d6834fba0ac19c4137d5.json",
+					"name" : "qt_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros__cpp-be25debb365ce4731810.json",
+					"name" : "qt_ros__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "qt_ros__py::@f236241cf3133ca54bc3",
+					"jsonFile" : "target-qt_ros__py-5b682f1cb2ccfc29682d.json",
+					"name" : "qt_ros__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros__rosidl_generator_c-5ea2aa5a7807d2540553.json",
+					"name" : "qt_ros__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros__rosidl_generator_py-207f81bd5093532559cb.json",
+					"name" : "qt_ros__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros__rosidl_typesupport_c-350630350d47009918c7.json",
+					"name" : "qt_ros__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros__rosidl_typesupport_c__pyext-48d7d00c3965cf4fd564.json",
+					"name" : "qt_ros__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros__rosidl_typesupport_cpp-44c4c18d60ea3aad06cf.json",
+					"name" : "qt_ros__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros__rosidl_typesupport_fastrtps_c-b485eb24e14fae550b92.json",
+					"name" : "qt_ros__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros__rosidl_typesupport_fastrtps_c__pyext-9a19059a80601e9d1d9d.json",
+					"name" : "qt_ros__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros__rosidl_typesupport_fastrtps_cpp-306b7f822f56fddedfe8.json",
+					"name" : "qt_ros__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros__rosidl_typesupport_introspection_c-e4173754b6e0bd47220c.json",
+					"name" : "qt_ros__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros__rosidl_typesupport_introspection_c__pyext-bc38a3791ef34e25b1bc.json",
+					"name" : "qt_ros__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros__rosidl_typesupport_introspection_cpp-45af86958e46b863f7cf.json",
+					"name" : "qt_ros__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_ros_uninstall-bec196f9187e8bcaf0e7.json",
+					"name" : "qt_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-470ab60d6926a7e9c0aa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maddy/qt_ros_workspace/build/qt_ros",
+		"source" : "/home/maddy/qt_ros_workspace/src/qt_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

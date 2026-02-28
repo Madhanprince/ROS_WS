@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/maddy/qt_ros_workspace/qt_ros/src/main.cpp" "CMakeFiles/qt_node.dir/src/main.cpp.o" "gcc" "CMakeFiles/qt_node.dir/src/main.cpp.o.d"
-  "/home/maddy/qt_ros_workspace/qt_ros/src/my_window.cpp" "CMakeFiles/qt_node.dir/src/my_window.cpp.o" "gcc" "CMakeFiles/qt_node.dir/src/my_window.cpp.o.d"
+  "/home/maddy/qt_ros_workspace/src/qt_ros/src/main.cpp" "CMakeFiles/qt_node.dir/src/main.cpp.o" "gcc" "CMakeFiles/qt_node.dir/src/main.cpp.o.d"
+  "/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp" "CMakeFiles/qt_node.dir/src/my_window.cpp.o" "gcc" "CMakeFiles/qt_node.dir/src/my_window.cpp.o.d"
   )
 
 # Targets to which this target links.

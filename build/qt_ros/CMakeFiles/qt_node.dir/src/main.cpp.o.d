@@ -1,5 +1,5 @@
 CMakeFiles/qt_node.dir/src/main.cpp.o: \
- /home/maddy/qt_ros_workspace/qt_ros/src/main.cpp \
+ /home/maddy/qt_ros_workspace/src/qt_ros/src/main.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
@@ -695,7 +695,7 @@ CMakeFiles/qt_node.dir/src/main.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/maddy/qt_ros_workspace/qt_ros/include/qt_ros/my_window.hpp \
+ /home/maddy/qt_ros_workspace/src/qt_ros/include/qt_ros/my_window.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \

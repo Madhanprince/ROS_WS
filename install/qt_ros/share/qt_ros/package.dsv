@@ -1,3 +1,9 @@
+source;share/qt_ros/hook/cmake_prefix_path.ps1
+source;share/qt_ros/hook/cmake_prefix_path.dsv
+source;share/qt_ros/hook/cmake_prefix_path.sh
+source;share/qt_ros/hook/ld_library_path_lib.ps1
+source;share/qt_ros/hook/ld_library_path_lib.dsv
+source;share/qt_ros/hook/ld_library_path_lib.sh
 source;share/qt_ros/local_setup.bash
 source;share/qt_ros/local_setup.dsv
 source;share/qt_ros/local_setup.ps1

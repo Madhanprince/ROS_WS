@@ -1,4 +1,0 @@
-Invoking command in '/home/maddy/qt_ros_workspace/build/qt_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maddy/qt_ros_workspace/qt_ros -DCMAKE_INSTALL_PREFIX=/home/maddy/qt_ros_workspace/install/qt_ros
-Invoked command in '/home/maddy/qt_ros_workspace/build/qt_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/maddy/qt_ros_workspace/qt_ros -DCMAKE_INSTALL_PREFIX=/home/maddy/qt_ros_workspace/install/qt_ros
-Invoking command in '/home/maddy/qt_ros_workspace/build/qt_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maddy/qt_ros_workspace/build/qt_ros -- -j8 -l8
-Invoked command in '/home/maddy/qt_ros_workspace/build/qt_ros' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maddy/qt_ros_workspace/build/qt_ros -- -j8 -l8
