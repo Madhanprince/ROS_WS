@@ -1,3 +1,4 @@
+#include <iostream>
 #include "qt_ros/my_window.hpp"
 #include <QVBoxLayout>
 #include <chrono>
@@ -6,6 +7,7 @@
 #include <rclcpp_action/rclcpp_action.hpp>
 #include <rclcpp/rclcpp.hpp>
 #include <sstream>
+
 
 using namespace std::chrono_literals; 
 
@@ -18,16 +20,16 @@ MyWindow::MyWindow(rclcpp::Node::SharedPtr node, QWidget *parent)
     qt_client = node_->create_client<qt_ros::srv::QtString>("qt_string");
     qt_service =node_->create_service<qt_ros::srv::QtString>("qt_string",
         std::bind(&MyWindow::service_res,this,std::placeholders::_1,std::placeholders::_2));
-    client_ptr_ =node->create_client<qt_ros::action::Fibonacci>(this,"qt_fibonacci");
-    action_server = node->rclcpp_action::create_server<qt_ros::action::Fibonacci>(
+    client_ptr_ =rclcpp_action::create_client<qt_ros::action::Fibonacci>(this,"qt_fibonacci");
+    action_server =rclcpp_action::create_server<qt_ros::action::Fibonacci>(
       this,
       "qt_fibonacci",
       std::bind(&FibonacciActionServer::handle_goal, this, _1, _2),
       std::bind(&FibonacciActionServer::handle_cancel, this, _1),
       std::bind(&FibonacciActionServer::handle_accepted, this, _1));
 
-    using Fibonacci = qt_ros::action::Fibonacci;
-    using GoalHandleFibonacci = rclcpp_action::ServerGoalHandle<Fibonacci>;
+    // using Fibonacci = qt_ros::action::Fibonacci;
+    // using GoalHandleFibonacci = rclcpp_action::ServerGoalHandle<Fibonacci>;
 
     button_1 = new QPushButton("Publish Message", this);
     button_2 = new QPushButton("Service_call", this);
@@ -44,7 +46,7 @@ MyWindow::MyWindow(rclcpp::Node::SharedPtr node, QWidget *parent)
     );
     timer_->cancel();
 
-    timer_ = this->create_wall_timer(
+    timer_ = node->create_wall_timer(
         std::chrono::milliseconds(500),
         std::bind(&FibonacciActionClient::send_goal, this));
     timer_->cancel();
@@ -145,27 +147,27 @@ void MyWindow::send_goal()
 {
     using namespace std::placeholders;
     this->timer_->cancel();
-    if (this->client_prt_->wait_for_action_server()){
+    if (MyWindow::client_ptr_->wait_for_action_server()){
         RCLCPP_ERROR(this->get_logger(),"Action server not available after waiting");
         rclcpp::shutdown();
     } 
 
-    Fibonacci::Goal goal_msg ;
+    qt_ros::action::Fibonacci::Goal goal_msg ;
     goal_msg.order =10 ;
 
     RCLCPP_INFO(this->get_logger(),"sending goal");
 
-    rclcpp_action::Client<qt_ros::action::Fibonacci>::SendGoalOption() send_goal_option ;
+    rclcpp_action::Client<qt_ros::action::Fibonacci>::SendGoalOptions send_goal_options ;
     send_goal_options.goal_response_callback= 
         std::bind(&MyWindow::goal_response_callback,this,_1);
     send_goal_options.feedback_callback = 
         std::bind(&MyWindow::feedback_callback,this,_1,_2);
     send_goal_options.result_callback =
         std::bind(&MyWindow::result_callback,this,_1);
-    this->client_prt_->async_send_goal(goal_msg,send_goal_options);
+    MyWindow::client_ptr_->async_send_goal(goal_msg,send_goal_options);
 
 }
-void MyWindow::goal_response_callback(const GoalHandleFibonacci::SharedPtr & goalhandle)
+void MyWindow::goal_response_callback(const rclcpp_action::Client<qt_ros::action::Fibonacci>::SharedPtr & goalhandle)
 {
     if(!goal_handle){
         RCLCPP_ERROR(this->get_logger(),"Goal was rejected by server");
@@ -174,8 +176,7 @@ void MyWindow::goal_response_callback(const GoalHandleFibonacci::SharedPtr & goa
     }
 }
 
-void MyWindow::feedback_callback(GoalHandleFibonacci::SharedPtr,
-    const srd::shared_prt<const Fibonacci::Feedback> feedback)
+void MyWindow::feedback_callback(rclcpp_action::Client<qt_ros::action::Fibonacci>::FeedbackCallback & feedback)
 {
     std::stringstream ss;
     ss<<"Next Number in sequence received: ";
@@ -186,7 +187,7 @@ void MyWindow::feedback_callback(GoalHandleFibonacci::SharedPtr,
     RCLCPP_INFO(this->get_logger(), ss.str().c_str());
 }
 
-void MyWindow::result_callback(const GoalHandleFibonacci::WrappedResult & result)
+void MyWindow::result_callback(const rclcpp_action::Client<qt_ros::action::Fibonacci>::ResultCallback & result)
 {
     switch (result.code) {
       case rclcpp_action::ResultCode::SUCCEEDED:

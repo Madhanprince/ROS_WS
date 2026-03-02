@@ -36,10 +36,10 @@ private:
     
     //action_client
     void send_goal();
-    void goal_response_callback(const qt_ros::action::GoalHandleFibonacci::SharedPtr & goalhandle);
-    void feedback_callback(rclcpp_action::GoalHandleFibonacci::SharedPtr,
-    const std::shared_ptr<const Fibonacci::Feedback> feedback);
-    void result_callback(const rclcpp_action::GoalHandleFibonacci::WrappedResult & result);
+    void goal_response_callback(const rclcpp_action::Client<qt_ros::action::Fibonacci>::GoalHandle::SharedPtr & goalhandle) ;
+   
+    void feedback_callback(rclcpp_action::Client<qt_ros::action::Fibonacci>::FeedbackCallback & feedback);
+    void result_callback(const rclcpp_action::Client<qt_ros::action::Fibonacci>::ResultCallback & result);
 
     // //action_server
     // rclcpp_action::GoalResponse handle_goal(
@@ -47,6 +47,7 @@ private:
     // rclcpp_action::CancelResponse handle_cancel(
     // const std::shared_ptr<GoalHandleFibonacci> goal_handle);
     // rclcpp_action::CancelResponse(const std::shared_ptr<GoalHandleFibonacci> goal_handle);
+
     void execute(const std::shared_ptr<rclcpp_action::GoalHandleFibonacci> goal_handle);
 
 
@@ -55,7 +56,7 @@ private:
     rclcpp::Client<qt_ros::srv::QtString>::SharedPtr qt_client;
     rclcpp::Service<qt_ros::srv::QtString>::SharedPtr qt_service;
     rclcpp_action::Client<qt_ros::action::Fibonacci>::SharedPtr client_ptr_;
-    rclcpp_action::Server<qt_ros::action::Fibonacci>::SharedPtr action_server_;
+    rclcpp_action::Server<qt_ros::action::Fibonacci>::SharedPtr action_server;
 
     rclcpp::TimerBase::SharedPtr timer_;
 
