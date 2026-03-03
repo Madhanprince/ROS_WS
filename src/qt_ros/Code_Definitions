@@ -1,0 +1,74 @@
+In ROS 2 Actions — There Are TWO Goal Handles
+1. Client Side
+
+rclcpp_action::ClientGoalHandle<ActionT>
+
+->This is used by the client.
+->It helps the client:
+->Track goal status
+->Receive feedback
+->Get result
+->Cancel goal
+
+This is what you are using in:
+rclcpp_action::ClientGoalHandle<qt_ros::action::Fibonacci>::SharedPtr
+So this is client-side tracking object.
+
+2️.Server Side
+
+On the server side, there is a different class:
+rclcpp_action::ServerGoalHandle<ActionT>
+
+This belongs to the server.
+
+It helps the server:
+
+->Accept or reject goal
+->Publish feedback
+->Succeed / Abort / Cancel goal
+->Send result
+--------------------------------------------
+1. Main Action Type
+
+qt_ros::action::Fibonacci
+
+This is the complete action definition.Inside it, there are 3 important message types.
+
+2. Goal Type
+
+qt_ros::action::Fibonacci::Goal
+
+Data sent from client to server
+
+3. Result Type
+
+qt_ros::action::Fibonacci::Result
+
+Final result sent from server to client
+
+4. Feedback Type
+
+qt_ros::action::Fibonacci::Feedback
+
+Intermediate updates sent while executing
+
+5. ClientGoalHandle Type
+rclcpp_action::ClientGoalHandle<qt_ros::action::Fibonacci>
+
+Client-side object that tracks one goal
+
+6. Shared Pointer Types Used in Callbacks
+
+In feedback callback:
+
+A. GoalHandleFibonacci::SharedPtr
+B. std::shared_ptr<const qt_ros::action::Fibonacci::Feedback>
+
+In result callback:
+
+GoalHandleFibonacci::WrappedResult
+
+7. Server Side Types (for understanding)
+
+If you write server:
+rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci>

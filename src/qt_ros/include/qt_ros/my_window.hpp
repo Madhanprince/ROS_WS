@@ -26,7 +26,7 @@ public:
 
     ~MyWindow();
 
-private:
+public:
     void handleButtonClick_callback();
     void toggle_timer();
 
@@ -36,19 +36,19 @@ private:
     
     //action_client
     void send_goal();
-    void goal_response_callback(const rclcpp_action::Client<qt_ros::action::Fibonacci>::GoalHandle::SharedPtr & goalhandle) ;
-   
-    void feedback_callback(rclcpp_action::Client<qt_ros::action::Fibonacci>::FeedbackCallback & feedback);
-    void result_callback(const rclcpp_action::Client<qt_ros::action::Fibonacci>::ResultCallback & result);
-
+    void goal_response_callback(const rclcpp_action::ClientGoalHandle<qt_ros::action::Fibonacci>::SharedPtr & goalhandle);
+    void feedback_callback(rclcpp_action::ClientGoalHandle<qt_ros::action::Fibonacci>::SharedPtr,
+        const std::shared_ptr<const qt_ros::action::Fibonacci::Feedback> feedback);
+    void MyWindow::result_callback(const rclcpp_action::ClientGoalHandle<qt_ros::action::Fibonacci>::WrappedResult & result);
+    
     // //action_server
-    // rclcpp_action::GoalResponse handle_goal(
-    // const rclcpp_action::GoalUUID & uuid,std::shared_prt<const Fibonacci::Goal> goal);
-    // rclcpp_action::CancelResponse handle_cancel(
-    // const std::shared_ptr<GoalHandleFibonacci> goal_handle);
-    // rclcpp_action::CancelResponse(const std::shared_ptr<GoalHandleFibonacci> goal_handle);
-
-    void execute(const std::shared_ptr<rclcpp_action::GoalHandleFibonacci> goal_handle);
+    
+    rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,
+        std::shared_ptr<const qt_ros::action::Fibonacci> & goal);
+    rclcpp_action::CancelResponse handle_cancel(
+        const std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci>> & goal_handle);
+    void handle_accepted(const std::shared_ptr<qt_ros::action::Fibonacci> & goal_handle);
+    void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci>> goal_handle);
 
 
     rclcpp::Node::SharedPtr node_;

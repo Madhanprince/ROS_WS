@@ -10,6 +10,7 @@
 
 
 using namespace std::chrono_literals; 
+using namespace std::placeholders;
 
 MyWindow::MyWindow(rclcpp::Node::SharedPtr node, QWidget *parent)
     : QWidget(parent), node_(node),publishing_(false)
@@ -24,12 +25,9 @@ MyWindow::MyWindow(rclcpp::Node::SharedPtr node, QWidget *parent)
     action_server =rclcpp_action::create_server<qt_ros::action::Fibonacci>(
       this,
       "qt_fibonacci",
-      std::bind(&FibonacciActionServer::handle_goal, this, _1, _2),
-      std::bind(&FibonacciActionServer::handle_cancel, this, _1),
-      std::bind(&FibonacciActionServer::handle_accepted, this, _1));
-
-    // using Fibonacci = qt_ros::action::Fibonacci;
-    // using GoalHandleFibonacci = rclcpp_action::ServerGoalHandle<Fibonacci>;
+      std::bind(&MyWindow::handle_goal, this, _1, _2),
+      std::bind(&MyWindow::handle_cancel, this, _1),
+      std::bind(&MyWindow::handle_accepted, this, _1));
 
     button_1 = new QPushButton("Publish Message", this);
     button_2 = new QPushButton("Service_call", this);
@@ -38,7 +36,7 @@ MyWindow::MyWindow(rclcpp::Node::SharedPtr node, QWidget *parent)
     QVBoxLayout *layout = new QVBoxLayout(this);
     layout->addWidget(button_1);
     layout->addWidget(button_2);
-    layout->addwidget(button_3);
+    layout->addWidget(button_3);
 
     timer_ = node_->create_wall_timer(
         500ms,
@@ -48,7 +46,7 @@ MyWindow::MyWindow(rclcpp::Node::SharedPtr node, QWidget *parent)
 
     timer_ = node->create_wall_timer(
         std::chrono::milliseconds(500),
-        std::bind(&FibonacciActionClient::send_goal, this));
+        std::bind(&MyWindow::send_goal, this));
     timer_->cancel();
 
     connect(button_1 , &QPushButton::clicked,
@@ -167,7 +165,7 @@ void MyWindow::send_goal()
     MyWindow::client_ptr_->async_send_goal(goal_msg,send_goal_options);
 
 }
-void MyWindow::goal_response_callback(const rclcpp_action::Client<qt_ros::action::Fibonacci>::SharedPtr & goalhandle)
+void MyWindow::goal_response_callback(const rclcpp_action::ClientGoalHandle<qt_ros::action::Fibonacci>::SharedPtr & goal_handle)
 {
     if(!goal_handle){
         RCLCPP_ERROR(this->get_logger(),"Goal was rejected by server");
@@ -176,7 +174,8 @@ void MyWindow::goal_response_callback(const rclcpp_action::Client<qt_ros::action
     }
 }
 
-void MyWindow::feedback_callback(rclcpp_action::Client<qt_ros::action::Fibonacci>::FeedbackCallback & feedback)
+void MyWindow::feedback_callback(rclcpp_action::ClientGoalHandle<qt_ros::action::Fibonacci>::SharedPtr,
+    const std::shared_ptr<const qt_ros::action::Fibonacci::Feedback> feedback)
 {
     std::stringstream ss;
     ss<<"Next Number in sequence received: ";
@@ -187,7 +186,7 @@ void MyWindow::feedback_callback(rclcpp_action::Client<qt_ros::action::Fibonacci
     RCLCPP_INFO(this->get_logger(), ss.str().c_str());
 }
 
-void MyWindow::result_callback(const rclcpp_action::Client<qt_ros::action::Fibonacci>::ResultCallback & result)
+void MyWindow::result_callback(const rclcpp_action::ClientGoalHandle<qt_ros::action::Fibonacci>::WrappedResult & result)
 {
     switch (result.code) {
       case rclcpp_action::ResultCode::SUCCEEDED:
@@ -207,36 +206,36 @@ void MyWindow::result_callback(const rclcpp_action::Client<qt_ros::action::Fibon
 //Action Server
 
 rclcpp_action::GoalResponse handle_goal(
-    const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const Fibonacci::Goal> goal)
+    const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const qt_ros::action::Fibonacci> & goal)
 {
     RCLCPP_INFO(this->get_logger(),"received goal request with order %d",goal-> order);
-    return rclpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
+    return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
 }
 
 rclcpp_action::CancelResponse handle_cancel(
-    const std::shared_ptr<GoalHandleFibonacci> goal_handle)
+    const std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci>> & goal_handle)
 {
     RCLCPP_INFO(this->get_logger(), "Received request to cancel goal");
     (void)goal_handle;
     return rclcpp_action::CancelResponse::ACCEPT;
 }
 
-rclcpp_action::CancelResponse handle_accepted(const std::shared_ptr<GoalHandleFibonacci> goal_handle)
+void MyWindow::handle_accepted(const std::shared_ptr<qt_ros::action::Fibonacci> & goal_handle)
 {
-    using namespace std::placeholder;
-    std::thread{std::bind(&MyWindow::execute,this,_1),goal_handle}.detach();
+    using namespace std::placeholders;
+    std::thread{std::bind(&MyWindow::execute, this, goal_handle)}.detach();
 }
 
-void MyWindow::execute(const std::shared_ptr<rclcpp_action::GoalHandleFibonacci> goal_handle)
+void MyWindow::execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci>> goal_handle)
 {
     RCLCPP_INFO(this->get_logger(),"Executing goal");
     rclcpp::Rate loop_rate(1);
     const auto goal= goal_handle->get_goal();
-    auto feedback = std::make_shared<Fibonacci::Feedback>();
+    auto feedback = std::make_shared<qt_ros::action::Fibonacci::Feedback>();
     auto &sequence = feedback->partial_sequence;
     sequence.push_back(1);
     sequence.push_back(2);
-    auto result = std::make_shared<Fibonacci::result>();
+    auto result = std::make_shared<qt_ros::action::Fibonacci::Result>();
 
     for (int i=1; (i< goal->order) && rclcpp::ok(); ++i)
     {
