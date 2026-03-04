@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.001244] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.002024] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.002625] (qt_ros) JobQueued: {'identifier': 'qt_ros', 'dependencies': OrderedDict()}
+[0.002737] (qt_ros) JobStarted: {'identifier': 'qt_ros'}
+[0.015708] (qt_ros) JobProgress: {'identifier': 'qt_ros', 'progress': 'cmake'}
+[0.018086] (qt_ros) JobProgress: {'identifier': 'qt_ros', 'progress': 'build'}
+[0.018285] (qt_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maddy/qt_ros_workspace/build/qt_ros', '--', '-j8', '-l8'], 'cwd': '/home/maddy/qt_ros_workspace/build/qt_ros', 'env': OrderedDict([('USER', 'maddy'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy'), ('LESS', '-R'), ('ZSH', '/home/maddy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maddy'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/341_interop'), ('NAME', 'RMCCORPDE-DT024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.15.6-hotspot/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/PostgreSQL/17/bin:/mnt/c/sonar-scanner-7.1.0.4889-windows-x64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/RMCPDEDT024/AppData/Local/Python/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/maddy/qt_ros_workspace/build/qt_ros'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099053] (-) TimerEvent: {}
+[0.109485] (qt_ros) StdoutLine: {'line': b'[  4%] Built target qt_ros__cpp\n'}
+[0.109961] (qt_ros) StdoutLine: {'line': b'[ 11%] Built target qt_ros__rosidl_generator_c\n'}
+[0.135086] (qt_ros) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_qt_ros\n'}
+[0.157354] (qt_ros) StdoutLine: {'line': b'[ 21%] Built target qt_ros__rosidl_typesupport_c\n'}
+[0.157703] (qt_ros) StdoutLine: {'line': b'[ 30%] Built target qt_ros__rosidl_typesupport_fastrtps_c\n'}
+[0.158031] (qt_ros) StdoutLine: {'line': b'[ 47%] Built target qt_ros__rosidl_typesupport_cpp\n'}
+[0.158319] (qt_ros) StdoutLine: {'line': b'[ 50%] Built target qt_ros__rosidl_typesupport_fastrtps_cpp\n'}
+[0.163323] (qt_ros) StdoutLine: {'line': b'[ 59%] Built target qt_ros__rosidl_typesupport_introspection_c\n'}
+[0.167711] (qt_ros) StdoutLine: {'line': b'[ 69%] Built target qt_ros__rosidl_typesupport_introspection_cpp\n'}
+[0.199249] (-) TimerEvent: {}
+[0.210961] (qt_ros) StdoutLine: {'line': b'[ 69%] Built target qt_ros\n'}
+[0.238466] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_node\x1b[0m\n'}
+[0.248808] (qt_ros) StdoutLine: {'line': b'[ 71%] Built target qt_ros__py\n'}
+[0.291067] (qt_ros) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/qt_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.293941] (qt_ros) StdoutLine: {'line': b'[ 80%] Built target qt_ros__rosidl_generator_py\n'}
+[0.294207] (qt_ros) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/qt_node.dir/src/my_window.cpp.o\x1b[0m\n'}
+[0.299575] (-) TimerEvent: {}
+[0.336990] (qt_ros) StdoutLine: {'line': b'[ 88%] Built target qt_ros__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.339355] (qt_ros) StdoutLine: {'line': b'[ 97%] Built target qt_ros__rosidl_typesupport_c__pyext\n'}
+[0.339696] (qt_ros) StdoutLine: {'line': b'[ 97%] Built target qt_ros__rosidl_typesupport_introspection_c__pyext\n'}
+[0.399775] (-) TimerEvent: {}
+[0.500403] (-) TimerEvent: {}
+[0.600924] (-) TimerEvent: {}
+[0.652758] (qt_ros) StdoutLine: {'line': b'running egg_info\n'}
+[0.654051] (qt_ros) StdoutLine: {'line': b'writing qt_ros.egg-info/PKG-INFO\n'}
+[0.654450] (qt_ros) StdoutLine: {'line': b'writing dependency_links to qt_ros.egg-info/dependency_links.txt\n'}
+[0.654860] (qt_ros) StdoutLine: {'line': b'writing top-level names to qt_ros.egg-info/top_level.txt\n'}
+[0.657987] (qt_ros) StdoutLine: {'line': b"reading manifest file 'qt_ros.egg-info/SOURCES.txt'\n"}
+[0.659017] (qt_ros) StdoutLine: {'line': b"writing manifest file 'qt_ros.egg-info/SOURCES.txt'\n"}
+[0.701091] (-) TimerEvent: {}
+[0.708017] (qt_ros) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_qt_ros_egg\n'}
+[0.801260] (-) TimerEvent: {}
+[0.901815] (-) TimerEvent: {}
+[1.002456] (-) TimerEvent: {}
+[1.103023] (-) TimerEvent: {}
+[1.203620] (-) TimerEvent: {}
+[1.304151] (-) TimerEvent: {}
+[1.404667] (-) TimerEvent: {}
+[1.505299] (-) TimerEvent: {}
+[1.605882] (-) TimerEvent: {}
+[1.706383] (-) TimerEvent: {}
+[1.807030] (-) TimerEvent: {}
+[1.907623] (-) TimerEvent: {}
+[2.008182] (-) TimerEvent: {}
+[2.108742] (-) TimerEvent: {}
+[2.209258] (-) TimerEvent: {}
+[2.309764] (-) TimerEvent: {}
+[2.410266] (-) TimerEvent: {}
+[2.510748] (-) TimerEvent: {}
+[2.611337] (-) TimerEvent: {}
+[2.711876] (-) TimerEvent: {}
+[2.812416] (-) TimerEvent: {}
+[2.912920] (-) TimerEvent: {}
+[3.013470] (-) TimerEvent: {}
+[3.113968] (-) TimerEvent: {}
+[3.214681] (-) TimerEvent: {}
+[3.315270] (-) TimerEvent: {}
+[3.415855] (-) TimerEvent: {}
+[3.516463] (-) TimerEvent: {}
+[3.617086] (-) TimerEvent: {}
+[3.717660] (-) TimerEvent: {}
+[3.818209] (-) TimerEvent: {}
+[3.918724] (-) TimerEvent: {}
+[4.019259] (-) TimerEvent: {}
+[4.119908] (-) TimerEvent: {}
+[4.220527] (-) TimerEvent: {}
+[4.321128] (-) TimerEvent: {}
+[4.421739] (-) TimerEvent: {}
+[4.522334] (-) TimerEvent: {}
+[4.622943] (-) TimerEvent: {}
+[4.723539] (-) TimerEvent: {}
+[4.824029] (-) TimerEvent: {}
+[4.924595] (-) TimerEvent: {}
+[5.025201] (-) TimerEvent: {}
+[5.125817] (-) TimerEvent: {}
+[5.226402] (-) TimerEvent: {}
+[5.326995] (-) TimerEvent: {}
+[5.427837] (-) TimerEvent: {}
+[5.528533] (-) TimerEvent: {}
+[5.629220] (-) TimerEvent: {}
+[5.729832] (-) TimerEvent: {}
+[5.830521] (-) TimerEvent: {}
+[5.931127] (-) TimerEvent: {}
+[6.031747] (-) TimerEvent: {}
+[6.132397] (-) TimerEvent: {}
+[6.232977] (-) TimerEvent: {}
+[6.333656] (-) TimerEvent: {}
+[6.434359] (-) TimerEvent: {}
+[6.535361] (-) TimerEvent: {}
+[6.636014] (-) TimerEvent: {}
+[6.736638] (-) TimerEvent: {}
+[6.837141] (-) TimerEvent: {}
+[6.937754] (-) TimerEvent: {}
+[7.038310] (-) TimerEvent: {}
+[7.138884] (-) TimerEvent: {}
+[7.239400] (-) TimerEvent: {}
+[7.339921] (-) TimerEvent: {}
+[7.440433] (-) TimerEvent: {}
+[7.531658] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMyWindow::MyWindow(rclcpp::Node::SharedPtr, QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.532306] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:25:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_server<qt_ros::action::Fibonacci>(std::__shared_ptr<rclcpp::Node, __gnu_cxx::_S_atomic>::element_type*, const char [10], std::_Bind_helper<false, rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci>&), MyWindow*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (MyWindow::*)(const std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci> >&), MyWindow*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (MyWindow::*)(const std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci> >&), MyWindow*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.532443] (qt_ros) StderrLine: {'line': b'   25 |     action_server_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<qt_ros::action::Fibonacci>(\x1b[m\x1b[K\n'}
+[7.532619] (qt_ros) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[7.532762] (qt_ros) StderrLine: {'line': b'   26 | \x1b[01;31m\x1b[K        node_.get(),\x1b[m\x1b[K\n'}
+[7.532870] (qt_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K                                                         \n'}
+[7.532976] (qt_ros) StderrLine: {'line': b'   27 | \x1b[01;31m\x1b[K        "fibonacci",\x1b[m\x1b[K\n'}
+[7.533080] (qt_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K                                                         \n'}
+[7.533280] (qt_ros) StderrLine: {'line': b'   28 | \x1b[01;31m\x1b[K        std::bind(&MyWindow::handle_goal, this, std::placeholders::_1, std::placeholders::_2),\x1b[m\x1b[K\n'}
+[7.533447] (qt_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.533553] (qt_ros) StderrLine: {'line': b'   29 | \x1b[01;31m\x1b[K        std::bind(&MyWindow::handle_cancel, this, std::placeholders::_1),\x1b[m\x1b[K\n'}
+[7.533657] (qt_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K    \n'}
+[7.533769] (qt_ros) StderrLine: {'line': b'   30 | \x1b[01;31m\x1b[K        std::bind(&MyWindow::handle_accepted, this, std::placeholders::_1)\x1b[m\x1b[K\n'}
+[7.533872] (qt_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K   \n'}
+[7.533974] (qt_ros) StderrLine: {'line': b'   31 | \x1b[01;31m\x1b[K    )\x1b[m\x1b[K;\n'}
+[7.534093] (qt_ros) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                                        \n'}
+[7.534289] (qt_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[7.534442] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/include/qt_ros/my_window.hpp:13\x1b[m\x1b[K,\n'}
+[7.534609] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:2\x1b[m\x1b[K:\n'}
+[7.534818] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr) [with ActionT = qt_ros::action::Fibonacci; typename rclcpp_action::Server<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::Server<qt_ros::action::Fibonacci> >; rclcpp::node_interfaces::NodeBaseInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>; rclcpp::node_interfaces::NodeClockInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>; rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>; rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeWaitablesInterface>; std::string = std::__cxx11::basic_string<char>; typename rclcpp_action::Server<ActionT>::GoalCallback = std::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci_Goal_<std::allocator<void> > >)>; typename rclcpp_action::Server<ActionT>::CancelCallback = std::function<rclcpp_action::CancelResponse(std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci> >)>; typename rclcpp_action::Server<ActionT>::AcceptedCallback = std::function<void(std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci> >)>; rcl_action_server_options_t = rcl_action_server_options_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.535038] (qt_ros) StderrLine: {'line': b'   58 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[7.535237] (qt_ros) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.535344] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 10 arguments, 5 provided\n'}
+[7.535449] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.535566] (qt_ros) StderrLine: {'line': b'  132 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[7.535669] (qt_ros) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.535771] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.535874] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:28:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci>&); _BoundArgs = {MyWindow*, const std::_Placeholder<1>&, const std::_Placeholder<2>&}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind_helper<false, rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci>&), MyWindow*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type; std::__is_socketlike<_Func> = std::__is_socketlike<rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci>&), rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci>&)>; typename std::decay<_Tp>::type = rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci>&)](((MyWindow*)this), std::placeholders::_1, std::placeholders::_2)\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci>&), MyWindow*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::Server<qt_ros::action::Fibonacci>::GoalCallback\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci_Goal_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[7.536052] (qt_ros) StderrLine: {'line': b'   28 |         \x1b[01;36m\x1b[Kstd::bind(&MyWindow::handle_goal, this, std::placeholders::_1, std::placeholders::_2)\x1b[m\x1b[K,\n'}
+[7.536184] (qt_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.540594] (-) TimerEvent: {}
+[7.619704] (qt_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.620016] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.620200] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.620420] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.620620] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.620801] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.621064] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.621329] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.621523] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.621691] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.621855] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/include/qt_ros/my_window.hpp:11\x1b[m\x1b[K,\n'}
+[7.622019] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:2\x1b[m\x1b[K:\n'}
+[7.622181] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse handle_goal(const GoalUUID&, std::shared_ptr<const qt_ros::action::Fibonacci_Goal_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.622346] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:212:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmode_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.622513] (qt_ros) StderrLine: {'line': b'  212 |     RCLCPP_INFO(\x1b[01;31m\x1b[Knode_\x1b[m\x1b[K-> get_logger(),"received goal request with order %d",goal-> order);\n'}
+[7.622684] (qt_ros) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.622852] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:212:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.623025] (qt_ros) StderrLine: {'line': b'  212 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node_-> get_logger(),"received goal request with order %d",goal-> order);\n'}
+[7.623212] (qt_ros) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.627313] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse handle_cancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.627656] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:219:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmode_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.627825] (qt_ros) StderrLine: {'line': b'  219 |     RCLCPP_INFO(\x1b[01;31m\x1b[Knode_\x1b[m\x1b[K-> get_logger(), "Received request to cancel goal");\n'}
+[7.627991] (qt_ros) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.628151] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:219:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.628311] (qt_ros) StderrLine: {'line': b'  219 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node_-> get_logger(), "Received request to cancel goal");\n'}
+[7.628467] (qt_ros) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.640779] (-) TimerEvent: {}
+[7.741281] (-) TimerEvent: {}
+[7.841745] (-) TimerEvent: {}
+[7.895487] (qt_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38\x1b[m\x1b[K,\n'}
+[7.895938] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/include/qt_ros/my_window.hpp:13\x1b[m\x1b[K,\n'}
+[7.896092] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:2\x1b[m\x1b[K:\n'}
+[7.896273] (qt_ros) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(NodeT, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&) [with ActionT = qt_ros::action::Fibonacci; NodeT = MyWindow*; typename rclcpp_action::Client<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::Client<qt_ros::action::Fibonacci> >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>; rcl_action_client_options_t = rcl_action_client_options_s]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.896732] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:24:73:\x1b[m\x1b[K   required from here\n'}
+[7.897051] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:112:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyWindow\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_node_base_interface\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.897793] (qt_ros) StderrLine: {'line': b'  112 |     \x1b[01;31m\x1b[Knode->get_node_base_interface\x1b[m\x1b[K(),\n'}
+[7.898118] (qt_ros) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.898310] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:113:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyWindow\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_node_graph_interface\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.898483] (qt_ros) StderrLine: {'line': b'  113 |     \x1b[01;31m\x1b[Knode->get_node_graph_interface\x1b[m\x1b[K(),\n'}
+[7.898610] (qt_ros) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.898717] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:114:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyWindow\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_node_logging_interface\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.898840] (qt_ros) StderrLine: {'line': b'  114 |     \x1b[01;31m\x1b[Knode->get_node_logging_interface\x1b[m\x1b[K(),\n'}
+[7.898945] (qt_ros) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.899048] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:115:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyWindow\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_node_waitables_interface\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.899154] (qt_ros) StderrLine: {'line': b'  115 |     \x1b[01;31m\x1b[Knode->get_node_waitables_interface\x1b[m\x1b[K(),\n'}
+[7.899257] (qt_ros) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.941922] (-) TimerEvent: {}
+[8.042469] (-) TimerEvent: {}
+[8.143060] (-) TimerEvent: {}
+[8.249271] (-) TimerEvent: {}
+[8.349763] (-) TimerEvent: {}
+[8.450263] (-) TimerEvent: {}
+[8.550893] (-) TimerEvent: {}
+[8.651449] (-) TimerEvent: {}
+[8.752001] (-) TimerEvent: {}
+[8.852525] (-) TimerEvent: {}
+[8.953015] (-) TimerEvent: {}
+[9.053572] (-) TimerEvent: {}
+[9.154062] (-) TimerEvent: {}
+[9.254560] (-) TimerEvent: {}
+[9.355075] (-) TimerEvent: {}
+[9.455645] (-) TimerEvent: {}
+[9.556142] (-) TimerEvent: {}
+[9.656651] (-) TimerEvent: {}
+[9.757152] (-) TimerEvent: {}
+[9.857748] (-) TimerEvent: {}
+[9.958246] (-) TimerEvent: {}
+[10.058742] (-) TimerEvent: {}
+[10.080592] (qt_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/qt_node.dir/build.make:90: CMakeFiles/qt_node.dir/src/my_window.cpp.o] Error 1\n'}
+[10.081199] (qt_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/qt_node.dir/all] Error 2\n'}
+[10.081881] (qt_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.086094] (qt_ros) CommandEnded: {'returncode': 2}
+[10.101268] (qt_ros) JobEnded: {'identifier': 'qt_ros', 'rc': 2}
+[10.112210] (-) EventReactorShutdown: {}

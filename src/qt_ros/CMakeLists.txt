@@ -21,33 +21,32 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
 ament_export_dependencies(rosidl_default_runtime)
 
-# add_executable(qt_node
-#   src/main.cpp
-#   src/my_window.cpp
-# )
+add_executable(qt_node
+  src/main.cpp
+  src/my_window.cpp
+)
 
-# target_include_directories(qt_node PUBLIC
-#   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-#   $<INSTALL_INTERFACE:include>
-# )
+target_include_directories(qt_node PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>
+)
 
-# target_link_libraries(qt_node Qt5::Widgets)
+target_link_libraries(qt_node Qt5::Widgets)
 
-# ament_target_dependencies(qt_node
-#   rclcpp
-#   rclcpp_action
-#   std_msgs
-#   action_msgs
-#   unique_identifier_msgs
-# )
+ament_target_dependencies(qt_node
+  rclcpp
+  rclcpp_action
+  std_msgs
+  action_msgs
+  unique_identifier_msgs
+)
 
-# IMPORTANT: link service interfaces
-# rosidl_target_interfaces(qt_node
-#   ${PROJECT_NAME} "rosidl_typesupport_cpp"
-# )
+rosidl_target_interfaces(qt_node
+  ${PROJECT_NAME} "rosidl_typesupport_cpp"
+)
 
-# install(TARGETS qt_node
-#   DESTINATION lib/${PROJECT_NAME}
-# )
+install(TARGETS qt_node
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 ament_package()

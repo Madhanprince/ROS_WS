@@ -26,7 +26,6 @@ public:
 
     ~MyWindow();
 
-public:
     void handleButtonClick_callback();
     void toggle_timer();
 
@@ -39,24 +38,21 @@ public:
     void goal_response_callback(const rclcpp_action::ClientGoalHandle<qt_ros::action::Fibonacci>::SharedPtr & goalhandle);
     void feedback_callback(rclcpp_action::ClientGoalHandle<qt_ros::action::Fibonacci>::SharedPtr,
         const std::shared_ptr<const qt_ros::action::Fibonacci::Feedback> feedback);
-    void MyWindow::result_callback(const rclcpp_action::ClientGoalHandle<qt_ros::action::Fibonacci>::WrappedResult & result);
+    void result_callback(const rclcpp_action::ClientGoalHandle<qt_ros::action::Fibonacci>::WrappedResult & result);
     
     // //action_server
     
-    rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,
-        std::shared_ptr<const qt_ros::action::Fibonacci> & goal);
+    rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const qt_ros::action::Fibonacci::Goal> goal);
     rclcpp_action::CancelResponse handle_cancel(
         const std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci>> & goal_handle);
-    void handle_accepted(const std::shared_ptr<qt_ros::action::Fibonacci> & goal_handle);
+    void handle_accepted(const std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci>> & goal_handle);
     void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci>> goal_handle);
 
-
-    rclcpp::Node::SharedPtr node_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
     rclcpp::Client<qt_ros::srv::QtString>::SharedPtr qt_client;
     rclcpp::Service<qt_ros::srv::QtString>::SharedPtr qt_service;
     rclcpp_action::Client<qt_ros::action::Fibonacci>::SharedPtr client_ptr_;
-    rclcpp_action::Server<qt_ros::action::Fibonacci>::SharedPtr action_server;
+    rclcpp_action::Server<qt_ros::action::Fibonacci>::SharedPtr action_server_;
 
     rclcpp::TimerBase::SharedPtr timer_;
 
@@ -66,6 +62,8 @@ public:
 
     bool publishing_ ;
 
+private:
+    rclcpp::Node::SharedPtr node_;
 };
 
 #endif // MY_WINDOW_HPP

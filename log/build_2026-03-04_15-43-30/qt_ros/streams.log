@@ -1,0 +1,76 @@
+[0.019s] Invoking command in '/home/maddy/qt_ros_workspace/build/qt_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maddy/qt_ros_workspace/build/qt_ros -- -j8 -l8
+[0.097s] [  9%] Built target qt_ros__rosidl_generator_c
+[0.100s] [ 11%] Built target qt_ros__cpp
+[0.123s] [ 11%] Built target ament_cmake_python_copy_qt_ros
+[0.142s] [ 21%] Built target qt_ros__rosidl_typesupport_introspection_c
+[0.142s] [ 40%] Built target qt_ros__rosidl_typesupport_fastrtps_c
+[0.142s] [ 40%] Built target qt_ros__rosidl_typesupport_c
+[0.143s] [ 50%] Built target qt_ros__rosidl_typesupport_introspection_cpp
+[0.165s] [ 64%] Built target qt_ros__rosidl_typesupport_cpp
+[0.166s] [ 69%] Built target qt_ros__rosidl_typesupport_fastrtps_cpp
+[0.194s] [ 69%] Built target qt_ros
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target qt_node[0m
+[0.230s] [ 71%] Built target qt_ros__py
+[0.266s] [ 76%] [32mBuilding CXX object CMakeFiles/qt_node.dir/src/my_window.cpp.o[0m
+[0.266s] [ 80%] Built target qt_ros__rosidl_generator_py
+[0.311s] [ 85%] Built target qt_ros__rosidl_typesupport_introspection_c__pyext
+[0.314s] [ 90%] Built target qt_ros__rosidl_typesupport_fastrtps_c__pyext
+[0.315s] [ 95%] Built target qt_ros__rosidl_typesupport_c__pyext
+[0.580s] running egg_info
+[0.581s] writing qt_ros.egg-info/PKG-INFO
+[0.581s] writing dependency_links to qt_ros.egg-info/dependency_links.txt
+[0.581s] writing top-level names to qt_ros.egg-info/top_level.txt
+[0.584s] reading manifest file 'qt_ros.egg-info/SOURCES.txt'
+[0.585s] writing manifest file 'qt_ros.egg-info/SOURCES.txt'
+[0.626s] [ 95%] Built target ament_cmake_python_build_qt_ros_egg
+[6.463s] [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:[m[K In constructor ‘[01m[KMyWindow::MyWindow(rclcpp::Node::SharedPtr, QWidget*)[m[K’:
+[6.463s] [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:25:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<qt_ros::action::Fibonacci>(rclcpp::Node::SharedPtr&, const char [10], std::_Bind_helper<false, rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci_Goal_<std::allocator<void> > >&), MyWindow*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (MyWindow::*)(const std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci> >&), MyWindow*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (MyWindow::*)(const std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci> >&), MyWindow*, const std::_Placeholder<1>&>::type)[m[K’
+[6.463s]    25 |     action_server_ = [01;31m[Krclcpp_action::create_server<qt_ros::action::Fibonacci>([m[K
+[6.463s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.464s]    26 | [01;31m[K        node_,[m[K
+[6.464s]       |         [01;31m[K~~~~~~[m[K                                                               
+[6.464s]    27 | [01;31m[K        "fibonacci",[m[K
+[6.464s]       |         [01;31m[K~~~~~~~~~~~~[m[K                                                         
+[6.465s]    28 | [01;31m[K        std::bind(&MyWindow::handle_goal, this, std::placeholders::_1, std::placeholders::_2),[m[K
+[6.465s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.465s]    29 | [01;31m[K        std::bind(&MyWindow::handle_cancel, this, std::placeholders::_1),[m[K
+[6.465s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K    
+[6.466s]    30 | [01;31m[K        std::bind(&MyWindow::handle_accepted, this, std::placeholders::_1)[m[K
+[6.466s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K   
+[6.466s]    31 | [01;31m[K    )[m[K;
+[6.466s]       |     [01;31m[K~[m[K                                                                        
+[6.467s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[6.467s]                  from [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/include/qt_ros/my_window.hpp:13[m[K,
+[6.467s]                  from [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:2[m[K:
+[6.467s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr) [with ActionT = qt_ros::action::Fibonacci; typename rclcpp_action::Server<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::Server<qt_ros::action::Fibonacci> >; rclcpp::node_interfaces::NodeBaseInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>; rclcpp::node_interfaces::NodeClockInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>; rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>; rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeWaitablesInterface>; std::string = std::__cxx11::basic_string<char>; typename rclcpp_action::Server<ActionT>::GoalCallback = std::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci_Goal_<std::allocator<void> > >)>; typename rclcpp_action::Server<ActionT>::CancelCallback = std::function<rclcpp_action::CancelResponse(std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci> >)>; typename rclcpp_action::Server<ActionT>::AcceptedCallback = std::function<void(std::shared_ptr<rclcpp_action::ServerGoalHandle<qt_ros::action::Fibonacci> >)>; rcl_action_server_options_t = rcl_action_server_options_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+[6.467s]    58 | [01;36m[Kcreate_server[m[K(
+[6.468s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[6.468s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  candidate expects 10 arguments, 5 provided
+[6.468s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[6.468s]   132 | [01;36m[Kcreate_server[m[K(
+[6.468s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[6.468s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.469s] [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:28:18:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci_Goal_<std::allocator<void> > >&); _BoundArgs = {MyWindow*, const std::_Placeholder<1>&, const std::_Placeholder<2>&}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind_helper<false, rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci_Goal_<std::allocator<void> > >&), MyWindow*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type; std::__is_socketlike<_Func> = std::__is_socketlike<rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci_Goal_<std::allocator<void> > >&), rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci_Goal_<std::allocator<void> > >&)>; typename std::decay<_Tp>::type = rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci_Goal_<std::allocator<void> > >&)](((MyWindow*)this), std::placeholders::_1, std::placeholders::_2)[m[K’ (type ‘[01m[Kstd::_Bind_helper<false, rclcpp_action::GoalResponse (MyWindow::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci_Goal_<std::allocator<void> > >&), MyWindow*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type[m[K’) to type ‘[01m[Krclcpp_action::Server<qt_ros::action::Fibonacci>::GoalCallback[m[K’ {aka ‘[01m[Kstd::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const qt_ros::action::Fibonacci_Goal_<std::allocator<void> > >)>[m[K’}
+[6.469s]    28 |         [01;36m[Kstd::bind(&MyWindow::handle_goal, this, std::placeholders::_1, std::placeholders::_2)[m[K,
+[6.469s]       |         [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.816s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38[m[K,
+[6.816s]                  from [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/include/qt_ros/my_window.hpp:13[m[K,
+[6.816s]                  from [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:2[m[K:
+[6.817s] /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp: In instantiation of ‘[01m[Ktypename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(NodeT, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&) [with ActionT = qt_ros::action::Fibonacci; NodeT = MyWindow*; typename rclcpp_action::Client<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::Client<qt_ros::action::Fibonacci> >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>; rcl_action_client_options_t = rcl_action_client_options_s][m[K’:
+[6.817s] [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:24:73:[m[K   required from here
+[6.818s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:112:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_node_base_interface[m[K’
+[6.818s]   112 |     [01;31m[Knode->get_node_base_interface[m[K(),
+[6.818s]       |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.819s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:113:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_node_graph_interface[m[K’
+[6.819s]   113 |     [01;31m[Knode->get_node_graph_interface[m[K(),
+[6.819s]       |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.819s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:114:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_node_logging_interface[m[K’
+[6.819s]   114 |     [01;31m[Knode->get_node_logging_interface[m[K(),
+[6.819s]       |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.820s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:115:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyWindow[m[K’ has no member named ‘[01m[Kget_node_waitables_interface[m[K’
+[6.820s]   115 |     [01;31m[Knode->get_node_waitables_interface[m[K(),
+[6.820s]       |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.027s] gmake[2]: *** [CMakeFiles/qt_node.dir/build.make:90: CMakeFiles/qt_node.dir/src/my_window.cpp.o] Error 1
+[9.027s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/qt_node.dir/all] Error 2
+[9.028s] gmake: *** [Makefile:146: all] Error 2
+[9.031s] Invoked command in '/home/maddy/qt_ros_workspace/build/qt_ros' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maddy/qt_ros_workspace/build/qt_ros -- -j8 -l8

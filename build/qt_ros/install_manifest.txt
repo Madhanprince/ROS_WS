@@ -75,6 +75,7 @@
 /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/srv/QtString_Request.msg
 /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/srv/QtString_Response.msg
 /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/actions/Fibonacci.action
+/home/maddy/qt_ros_workspace/install/qt_ros/lib/qt_ros/qt_node
 /home/maddy/qt_ros_workspace/install/qt_ros/share/ament_index/resource_index/package_run_dependencies/qt_ros
 /home/maddy/qt_ros_workspace/install/qt_ros/share/ament_index/resource_index/parent_prefix_path/qt_ros
 /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/ament_prefix_path.sh

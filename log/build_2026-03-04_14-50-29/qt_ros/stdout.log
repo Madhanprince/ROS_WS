@@ -1,0 +1,25 @@
+[  2%] Built target qt_ros__cpp
+[ 11%] Built target qt_ros__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_copy_qt_ros
+[ 21%] Built target qt_ros__rosidl_typesupport_introspection_cpp
+[ 30%] Built target qt_ros__rosidl_typesupport_introspection_c
+[ 50%] Built target qt_ros__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target qt_ros__rosidl_typesupport_cpp
+[ 59%] Built target qt_ros__rosidl_typesupport_c
+[ 69%] Built target qt_ros__rosidl_typesupport_fastrtps_c
+[ 69%] Built target qt_ros
+[35m[1mConsolidate compiler generated dependencies of target qt_node[0m
+[ 71%] Built target qt_ros__py
+[ 73%] [32mBuilding CXX object CMakeFiles/qt_node.dir/src/main.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/qt_node.dir/src/my_window.cpp.o[0m
+[ 83%] Built target qt_ros__rosidl_generator_py
+[ 88%] Built target qt_ros__rosidl_typesupport_introspection_c__pyext
+[ 92%] Built target qt_ros__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target qt_ros__rosidl_typesupport_c__pyext
+running egg_info
+writing qt_ros.egg-info/PKG-INFO
+writing dependency_links to qt_ros.egg-info/dependency_links.txt
+writing top-level names to qt_ros.egg-info/top_level.txt
+reading manifest file 'qt_ros.egg-info/SOURCES.txt'
+writing manifest file 'qt_ros.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_qt_ros_egg
