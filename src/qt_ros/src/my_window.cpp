@@ -12,8 +12,9 @@
 using namespace std::chrono_literals; 
 using namespace std::placeholders;
 
-MyWindow::MyWindow(rclcpp::Node::SharedPtr node, QWidget *parent)
-    : QWidget(parent), node_(node),publishing_(false)
+MyWindow::MyWindow(rclcpp::Node::SharedPtr node, QWidget *pare)
+    : QWidget(parent), //calls the Qwidgets constructor
+    node_(node),publishing_(false)
 {
     setFixedSize(300, 200);
 
@@ -45,10 +46,9 @@ MyWindow::MyWindow(rclcpp::Node::SharedPtr node, QWidget *parent)
     );
     timer_->cancel();
 
-    timer_ = node->create_wall_timer(
-        std::chrono::milliseconds(500),
-        std::bind(&MyWindow::send_goal, this));
-    timer_->cancel();
+    // timer_ = node_->create_wall_timer(500ms,
+    //     std::bind(&MyWindow::send_goal, this));
+    // timer_->cancel();
 
     connect(button_1 , &QPushButton::clicked,
             this, &MyWindow::toggle_timer);
@@ -67,6 +67,8 @@ MyWindow::~MyWindow() {
 
 //Publisher Button 
 
+//once buton clicked this function will be called and checks for publishing to be false initially
+//and if again clicked the condition becomes true so it stop publishing
 void MyWindow::toggle_timer()
 {
     if (!publishing_) {
@@ -83,6 +85,9 @@ void MyWindow::toggle_timer()
         RCLCPP_INFO(node_->get_logger(), "Publishing stopped");
     }
 }
+
+//timer call back function with each 500ms
+
 void MyWindow::handleButtonClick_callback()
 {
     timer_->reset();

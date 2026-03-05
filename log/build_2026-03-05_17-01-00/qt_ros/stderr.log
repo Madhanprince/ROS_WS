@@ -1,0 +1,14 @@
+[01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:[m[K In constructor ‘[01m[KMyWindow::MyWindow(rclcpp::Node::SharedPtr, QWidget*)[m[K’:
+[01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:16:15:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KQObject* QObject::parent() const[m[K’
+   16 |     : QWidget([01;31m[Kparent[m[K), //calls the Qwidgets constructor
+      |               [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+                 from [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/include/qt_ros/my_window.hpp:8[m[K,
+                 from [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:425:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  425 |     inline QObject *[01;36m[Kparent[m[K() const { return d_ptr->parent; }
+      |                     [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/qt_node.dir/build.make:90: CMakeFiles/qt_node.dir/src/my_window.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/qt_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

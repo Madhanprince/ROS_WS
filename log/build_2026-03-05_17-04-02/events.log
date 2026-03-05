@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000636] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000816] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000912] (qt_ros) JobQueued: {'identifier': 'qt_ros', 'dependencies': OrderedDict()}
+[0.000981] (qt_ros) JobStarted: {'identifier': 'qt_ros'}
+[0.011919] (qt_ros) JobProgress: {'identifier': 'qt_ros', 'progress': 'cmake'}
+[0.013107] (qt_ros) JobProgress: {'identifier': 'qt_ros', 'progress': 'build'}
+[0.015557] (qt_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maddy/qt_ros_workspace/build/qt_ros', '--', '-j8', '-l8'], 'cwd': '/home/maddy/qt_ros_workspace/build/qt_ros', 'env': OrderedDict([('USER', 'maddy'), ('SHLVL', '1'), ('HOME', '/home/maddy'), ('OLDPWD', '/home/maddy'), ('LESS', '-R'), ('ZSH', '/home/maddy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'maddy'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/343_interop'), ('NAME', 'RMCCORPDE-DT024'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.15.6-hotspot/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/PostgreSQL/17/bin:/mnt/c/sonar-scanner-7.1.0.4889-windows-x64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/RMCPDEDT024/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/RMCPDEDT024/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/RMCPDEDT024/AppData/Local/Python/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/maddy/qt_ros_workspace/build/qt_ros'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', '')]), 'shell': False}
+[0.098635] (-) TimerEvent: {}
+[0.126315] (qt_ros) StdoutLine: {'line': b'[  2%] Built target qt_ros__cpp\n'}
+[0.126692] (qt_ros) StdoutLine: {'line': b'[ 11%] Built target qt_ros__rosidl_generator_c\n'}
+[0.160509] (qt_ros) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_qt_ros\n'}
+[0.196950] (qt_ros) StdoutLine: {'line': b'[ 21%] Built target qt_ros__rosidl_typesupport_cpp\n'}
+[0.197329] (qt_ros) StdoutLine: {'line': b'[ 30%] Built target qt_ros__rosidl_typesupport_introspection_c\n'}
+[0.197533] (qt_ros) StdoutLine: {'line': b'[ 40%] Built target qt_ros__rosidl_typesupport_c\n'}
+[0.200925] (-) TimerEvent: {}
+[0.205787] (qt_ros) StdoutLine: {'line': b'[ 50%] Built target qt_ros__rosidl_typesupport_fastrtps_cpp\n'}
+[0.210407] (qt_ros) StdoutLine: {'line': b'[ 59%] Built target qt_ros__rosidl_typesupport_introspection_cpp\n'}
+[0.217547] (qt_ros) StdoutLine: {'line': b'[ 69%] Built target qt_ros__rosidl_typesupport_fastrtps_c\n'}
+[0.262610] (qt_ros) StdoutLine: {'line': b'[ 69%] Built target qt_ros\n'}
+[0.295167] (qt_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target qt_node\x1b[0m\n'}
+[0.301045] (-) TimerEvent: {}
+[0.309878] (qt_ros) StdoutLine: {'line': b'[ 71%] Built target qt_ros__py\n'}
+[0.346615] (qt_ros) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/qt_node.dir/src/my_window.cpp.o\x1b[0m\n'}
+[0.347088] (qt_ros) StdoutLine: {'line': b'[ 80%] Built target qt_ros__rosidl_generator_py\n'}
+[0.385368] (qt_ros) StdoutLine: {'line': b'[ 85%] Built target qt_ros__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.388549] (qt_ros) StdoutLine: {'line': b'[ 95%] Built target qt_ros__rosidl_typesupport_c__pyext\n'}
+[0.388920] (qt_ros) StdoutLine: {'line': b'[ 95%] Built target qt_ros__rosidl_typesupport_introspection_c__pyext\n'}
+[0.401205] (-) TimerEvent: {}
+[0.501686] (-) TimerEvent: {}
+[0.602175] (-) TimerEvent: {}
+[0.618195] (qt_ros) StdoutLine: {'line': b'running egg_info\n'}
+[0.619606] (qt_ros) StdoutLine: {'line': b'writing qt_ros.egg-info/PKG-INFO\n'}
+[0.619942] (qt_ros) StdoutLine: {'line': b'writing dependency_links to qt_ros.egg-info/dependency_links.txt\n'}
+[0.620456] (qt_ros) StdoutLine: {'line': b'writing top-level names to qt_ros.egg-info/top_level.txt\n'}
+[0.624850] (qt_ros) StdoutLine: {'line': b"reading manifest file 'qt_ros.egg-info/SOURCES.txt'\n"}
+[0.626044] (qt_ros) StdoutLine: {'line': b"writing manifest file 'qt_ros.egg-info/SOURCES.txt'\n"}
+[0.659962] (qt_ros) StdoutLine: {'line': b'[ 95%] Built target ament_cmake_python_build_qt_ros_egg\n'}
+[0.702341] (-) TimerEvent: {}
+[0.803009] (-) TimerEvent: {}
+[0.903918] (-) TimerEvent: {}
+[1.004680] (-) TimerEvent: {}
+[1.105172] (-) TimerEvent: {}
+[1.205684] (-) TimerEvent: {}
+[1.306271] (-) TimerEvent: {}
+[1.406940] (-) TimerEvent: {}
+[1.507479] (-) TimerEvent: {}
+[1.608097] (-) TimerEvent: {}
+[1.708787] (-) TimerEvent: {}
+[1.809379] (-) TimerEvent: {}
+[1.909945] (-) TimerEvent: {}
+[2.010476] (-) TimerEvent: {}
+[2.110971] (-) TimerEvent: {}
+[2.211590] (-) TimerEvent: {}
+[2.312243] (-) TimerEvent: {}
+[2.412820] (-) TimerEvent: {}
+[2.513331] (-) TimerEvent: {}
+[2.613814] (-) TimerEvent: {}
+[2.714292] (-) TimerEvent: {}
+[2.814909] (-) TimerEvent: {}
+[2.915472] (-) TimerEvent: {}
+[3.015959] (-) TimerEvent: {}
+[3.116490] (-) TimerEvent: {}
+[3.217006] (-) TimerEvent: {}
+[3.317572] (-) TimerEvent: {}
+[3.418030] (-) TimerEvent: {}
+[3.518536] (-) TimerEvent: {}
+[3.619119] (-) TimerEvent: {}
+[3.719640] (-) TimerEvent: {}
+[3.820099] (-) TimerEvent: {}
+[3.920623] (-) TimerEvent: {}
+[4.021121] (-) TimerEvent: {}
+[4.121567] (-) TimerEvent: {}
+[4.222069] (-) TimerEvent: {}
+[4.322605] (-) TimerEvent: {}
+[4.423111] (-) TimerEvent: {}
+[4.523700] (-) TimerEvent: {}
+[4.624180] (-) TimerEvent: {}
+[4.724728] (-) TimerEvent: {}
+[4.825211] (-) TimerEvent: {}
+[4.925702] (-) TimerEvent: {}
+[5.026251] (-) TimerEvent: {}
+[5.126766] (-) TimerEvent: {}
+[5.227232] (-) TimerEvent: {}
+[5.327789] (-) TimerEvent: {}
+[5.428355] (-) TimerEvent: {}
+[5.528804] (-) TimerEvent: {}
+[5.629289] (-) TimerEvent: {}
+[5.729828] (-) TimerEvent: {}
+[5.830368] (-) TimerEvent: {}
+[5.930840] (-) TimerEvent: {}
+[6.031328] (-) TimerEvent: {}
+[6.131885] (-) TimerEvent: {}
+[6.232458] (-) TimerEvent: {}
+[6.333366] (-) TimerEvent: {}
+[6.433839] (-) TimerEvent: {}
+[6.534295] (-) TimerEvent: {}
+[6.634793] (-) TimerEvent: {}
+[6.717987] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMyWindow::MyWindow(rclcpp::Node::SharedPtr, QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.718657] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:16:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[KQObject* QObject::parent() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.718787] (qt_ros) StderrLine: {'line': b'   16 |     : QWidget(\x1b[01;31m\x1b[Kparent\x1b[m\x1b[K), //calls the Qwidgets constructor\n'}
+[6.718901] (qt_ros) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.719023] (qt_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45\x1b[m\x1b[K,\n'}
+[6.719150] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1\x1b[m\x1b[K,\n'}
+[6.719261] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/include/qt_ros/my_window.hpp:8\x1b[m\x1b[K,\n'}
+[6.719386] (qt_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:2\x1b[m\x1b[K:\n'}
+[6.719524] (qt_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:425:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.719635] (qt_ros) StderrLine: {'line': b'  425 |     inline QObject *\x1b[01;36m\x1b[Kparent\x1b[m\x1b[K() const { return d_ptr->parent; }\n'}
+[6.719742] (qt_ros) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.734964] (-) TimerEvent: {}
+[6.835427] (-) TimerEvent: {}
+[6.935910] (-) TimerEvent: {}
+[7.036415] (-) TimerEvent: {}
+[7.136938] (-) TimerEvent: {}
+[7.237421] (-) TimerEvent: {}
+[7.337921] (-) TimerEvent: {}
+[7.438415] (-) TimerEvent: {}
+[7.538880] (-) TimerEvent: {}
+[7.639406] (-) TimerEvent: {}
+[7.739919] (-) TimerEvent: {}
+[7.840419] (-) TimerEvent: {}
+[7.940939] (-) TimerEvent: {}
+[8.041418] (-) TimerEvent: {}
+[8.141922] (-) TimerEvent: {}
+[8.242443] (-) TimerEvent: {}
+[8.342937] (-) TimerEvent: {}
+[8.443414] (-) TimerEvent: {}
+[8.543890] (-) TimerEvent: {}
+[8.644419] (-) TimerEvent: {}
+[8.744937] (-) TimerEvent: {}
+[8.845441] (-) TimerEvent: {}
+[8.945932] (-) TimerEvent: {}
+[9.046434] (-) TimerEvent: {}
+[9.146926] (-) TimerEvent: {}
+[9.247485] (-) TimerEvent: {}
+[9.347977] (-) TimerEvent: {}
+[9.448499] (-) TimerEvent: {}
+[9.548982] (-) TimerEvent: {}
+[9.592045] (qt_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/qt_node.dir/build.make:90: CMakeFiles/qt_node.dir/src/my_window.cpp.o] Error 1\n'}
+[9.592758] (qt_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/qt_node.dir/all] Error 2\n'}
+[9.592951] (qt_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.595593] (qt_ros) CommandEnded: {'returncode': 2}
+[9.616234] (qt_ros) JobEnded: {'identifier': 'qt_ros', 'rc': 2}
+[9.627204] (-) EventReactorShutdown: {}

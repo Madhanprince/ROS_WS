@@ -1,0 +1,40 @@
+[0.026s] Invoking command in '/home/maddy/qt_ros_workspace/build/qt_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maddy/qt_ros_workspace/build/qt_ros -- -j8 -l8
+[0.225s] [  2%] Built target qt_ros__cpp
+[0.229s] [ 11%] Built target qt_ros__rosidl_generator_c
+[0.270s] [ 11%] Built target ament_cmake_python_copy_qt_ros
+[0.277s] [ 33%] Built target qt_ros__rosidl_typesupport_fastrtps_cpp
+[0.278s] [ 30%] Built target qt_ros__rosidl_typesupport_introspection_cpp
+[0.278s] [ 50%] Built target qt_ros__rosidl_typesupport_introspection_c
+[0.278s] [ 50%] Built target qt_ros__rosidl_typesupport_cpp
+[0.281s] [ 59%] Built target qt_ros__rosidl_typesupport_c
+[0.282s] [ 69%] Built target qt_ros__rosidl_typesupport_fastrtps_c
+[0.314s] [ 69%] Built target qt_ros
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target qt_node[0m
+[0.354s] [ 71%] Built target qt_ros__py
+[0.394s] [ 73%] [32mBuilding CXX object CMakeFiles/qt_node.dir/src/my_window.cpp.o[0m
+[0.405s] [ 80%] Built target qt_ros__rosidl_generator_py
+[0.461s] [ 85%] Built target qt_ros__rosidl_typesupport_fastrtps_c__pyext
+[0.462s] [ 90%] Built target qt_ros__rosidl_typesupport_c__pyext
+[0.462s] [ 95%] Built target qt_ros__rosidl_typesupport_introspection_c__pyext
+[0.801s] running egg_info
+[0.802s] writing qt_ros.egg-info/PKG-INFO
+[0.803s] writing dependency_links to qt_ros.egg-info/dependency_links.txt
+[0.803s] writing top-level names to qt_ros.egg-info/top_level.txt
+[0.808s] reading manifest file 'qt_ros.egg-info/SOURCES.txt'
+[0.809s] writing manifest file 'qt_ros.egg-info/SOURCES.txt'
+[0.858s] [ 95%] Built target ament_cmake_python_build_qt_ros_egg
+[7.524s] [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:[m[K In constructor ‘[01m[KMyWindow::MyWindow(rclcpp::Node::SharedPtr, QWidget*)[m[K’:
+[7.524s] [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:16:15:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KQObject* QObject::parent() const[m[K’
+[7.524s]    16 |     : QWidget([01;31m[Kparent[m[K), //calls the Qwidgets constructor
+[7.524s]       |               [01;31m[K^~~~~~[m[K
+[7.524s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[7.525s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+[7.525s]                  from [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/include/qt_ros/my_window.hpp:8[m[K,
+[7.525s]                  from [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:2[m[K:
+[7.525s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:425:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.525s]   425 |     inline QObject *[01;36m[Kparent[m[K() const { return d_ptr->parent; }
+[7.525s]       |                     [01;36m[K^~~~~~[m[K
+[10.317s] gmake[2]: *** [CMakeFiles/qt_node.dir/build.make:90: CMakeFiles/qt_node.dir/src/my_window.cpp.o] Error 1
+[10.318s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/qt_node.dir/all] Error 2
+[10.318s] gmake: *** [Makefile:146: all] Error 2
+[10.324s] Invoked command in '/home/maddy/qt_ros_workspace/build/qt_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maddy/qt_ros_workspace/build/qt_ros -- -j8 -l8

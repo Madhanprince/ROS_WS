@@ -1,0 +1,193 @@
+[0.021s] Invoking command in '/home/maddy/qt_ros_workspace/build/qt_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maddy/qt_ros_workspace/build/qt_ros -- -j8 -l8
+[0.109s] [  2%] Built target qt_ros__cpp
+[0.116s] [ 11%] Built target qt_ros__rosidl_generator_c
+[0.132s] [ 11%] Built target ament_cmake_python_copy_qt_ros
+[0.160s] [ 21%] Built target qt_ros__rosidl_typesupport_introspection_cpp
+[0.160s] [ 30%] Built target qt_ros__rosidl_typesupport_cpp
+[0.164s] [ 42%] Built target qt_ros__rosidl_typesupport_fastrtps_cpp
+[0.164s] [ 50%] Built target qt_ros__rosidl_typesupport_introspection_c
+[0.164s] [ 59%] Built target qt_ros__rosidl_typesupport_fastrtps_c
+[0.166s] [ 69%] Built target qt_ros__rosidl_typesupport_c
+[0.202s] [ 69%] Built target qt_ros
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target qt_node[0m
+[0.242s] [ 71%] Built target qt_ros__py
+[0.270s] [ 73%] [32mBuilding CXX object CMakeFiles/qt_node.dir/src/my_window.cpp.o[0m
+[0.278s] [ 80%] Built target qt_ros__rosidl_generator_py
+[0.314s] [ 90%] Built target qt_ros__rosidl_typesupport_fastrtps_c__pyext
+[0.314s] [ 90%] Built target qt_ros__rosidl_typesupport_c__pyext
+[0.319s] [ 95%] Built target qt_ros__rosidl_typesupport_introspection_c__pyext
+[0.579s] running egg_info
+[0.580s] writing qt_ros.egg-info/PKG-INFO
+[0.581s] writing dependency_links to qt_ros.egg-info/dependency_links.txt
+[0.581s] writing top-level names to qt_ros.egg-info/top_level.txt
+[0.584s] reading manifest file 'qt_ros.egg-info/SOURCES.txt'
+[0.586s] writing manifest file 'qt_ros.egg-info/SOURCES.txt'
+[0.633s] [ 95%] Built target ament_cmake_python_build_qt_ros_egg
+[13.869s] [ 97%] [32m[1mLinking CXX executable qt_node[0m
+[15.724s] [100%] Built target qt_node
+[15.741s] Invoked command in '/home/maddy/qt_ros_workspace/build/qt_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maddy/qt_ros_workspace/build/qt_ros -- -j8 -l8
+[15.756s] Invoking command in '/home/maddy/qt_ros_workspace/build/qt_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maddy/qt_ros_workspace/build/qt_ros
+[15.768s] -- Install configuration: ""
+[15.769s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/ament_index/resource_index/rosidl_interfaces/qt_ros
+[15.770s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros
+[15.770s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv
+[15.770s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/qt_string.h
+[15.771s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail
+[15.771s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__functions.h
+[15.771s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__type_support.h
+[15.771s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__struct.h
+[15.772s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__functions.c
+[15.772s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action
+[15.772s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail
+[15.772s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__struct.h
+[15.772s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__functions.c
+[15.772s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__type_support.h
+[15.772s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__functions.h
+[15.772s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/fibonacci.h
+[15.773s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg
+[15.773s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg/rosidl_generator_c__visibility_control.h
+[15.773s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/library_path.sh
+[15.773s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/library_path.dsv
+[15.774s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_generator_c.so
+[15.774s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros
+[15.774s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv
+[15.774s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail
+[15.774s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__rosidl_typesupport_fastrtps_c.h
+[15.774s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action
+[15.775s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail
+[15.775s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[15.775s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg
+[15.775s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.775s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_fastrtps_c.so
+[15.776s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros
+[15.776s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv
+[15.776s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/qt_string.hpp
+[15.776s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail
+[15.777s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__builder.hpp
+[15.777s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__struct.hpp
+[15.777s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__type_support.hpp
+[15.777s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__traits.hpp
+[15.778s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action
+[15.778s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail
+[15.778s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__traits.hpp
+[15.778s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__builder.hpp
+[15.779s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__type_support.hpp
+[15.779s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__struct.hpp
+[15.779s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/fibonacci.hpp
+[15.780s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg
+[15.780s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.780s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros
+[15.780s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv
+[15.780s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail
+[15.780s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/dds_fastrtps
+[15.780s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__rosidl_typesupport_fastrtps_cpp.hpp
+[15.780s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action
+[15.781s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail
+[15.781s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/dds_fastrtps
+[15.781s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[15.781s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg
+[15.781s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.782s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_fastrtps_cpp.so
+[15.782s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros
+[15.782s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv
+[15.782s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail
+[15.782s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__rosidl_typesupport_introspection_c.h
+[15.782s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__type_support.c
+[15.782s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action
+[15.782s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail
+[15.782s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[15.783s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__type_support.c
+[15.783s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg
+[15.783s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.783s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_introspection_c.so
+[15.784s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_c.so
+[15.784s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros
+[15.784s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv
+[15.784s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail
+[15.784s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__rosidl_typesupport_introspection_cpp.hpp
+[15.785s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/srv/detail/qt_string__type_support.cpp
+[15.785s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action
+[15.785s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail
+[15.785s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[15.785s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/include/qt_ros/qt_ros/action/detail/fibonacci__type_support.cpp
+[15.786s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_introspection_cpp.so
+[15.786s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_typesupport_cpp.so
+[15.786s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/pythonpath.sh
+[15.786s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/pythonpath.dsv
+[15.786s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros-0.0.0-py3.10.egg-info
+[15.787s] -- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros-0.0.0-py3.10.egg-info/top_level.txt
+[15.787s] -- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.787s] -- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros-0.0.0-py3.10.egg-info/PKG-INFO
+[15.787s] -- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.788s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros
+[15.788s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.788s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.789s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/libqt_ros__rosidl_generator_py.so
+[15.789s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/srv
+[15.789s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/srv/_qt_string.py
+[15.790s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/srv/_qt_string_s.c
+[15.790s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/srv/__init__.py
+[15.790s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/_qt_ros_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.790s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/_qt_ros_s.ep.rosidl_typesupport_introspection_c.c
+[15.790s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/_qt_ros_s.ep.rosidl_typesupport_c.c
+[15.791s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/action
+[15.791s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/action/_fibonacci.py
+[15.791s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/action/__init__.py
+[15.791s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/action/_fibonacci_s.c
+[15.791s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/__init__.py
+[15.791s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.833s] Listing '/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros'...
+[15.833s] Listing '/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/action'...
+[15.833s] Listing '/home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/srv'...
+[15.840s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.842s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.844s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/local/lib/python3.10/dist-packages/qt_ros/qt_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.845s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/lib/libqt_ros__rosidl_generator_py.so
+[15.846s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/srv/QtString.idl
+[15.846s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/action/Fibonacci.idl
+[15.846s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/srv/QtString.srv
+[15.846s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/srv/QtString_Request.msg
+[15.847s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/srv/QtString_Response.msg
+[15.847s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/actions/Fibonacci.action
+[15.847s] -- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/lib/qt_ros/qt_node
+[15.853s] -- Set runtime path of "/home/maddy/qt_ros_workspace/install/qt_ros/lib/qt_ros/qt_node" to ""
+[15.853s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/ament_index/resource_index/package_run_dependencies/qt_ros
+[15.854s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/ament_index/resource_index/parent_prefix_path/qt_ros
+[15.854s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/ament_prefix_path.sh
+[15.854s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/ament_prefix_path.dsv
+[15.854s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/path.sh
+[15.854s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/environment/path.dsv
+[15.855s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/local_setup.bash
+[15.855s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/local_setup.sh
+[15.855s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/local_setup.zsh
+[15.855s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/local_setup.dsv
+[15.855s] -- Installing: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/package.dsv
+[15.856s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/ament_index/resource_index/packages/qt_ros
+[15.856s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_generator_cExport.cmake
+[15.856s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_generator_cExport-noconfig.cmake
+[15.857s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_typesupport_fastrtps_cExport.cmake
+[15.857s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.858s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_generator_cppExport.cmake
+[15.858s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.859s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.860s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_introspection_cExport.cmake
+[15.860s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.861s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_cExport.cmake
+[15.861s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_cExport-noconfig.cmake
+[15.862s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_introspection_cppExport.cmake
+[15.862s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.863s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_cppExport.cmake
+[15.863s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_ros__rosidl_typesupport_cppExport-noconfig.cmake
+[15.864s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_generator_pyExport.cmake
+[15.864s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/export_qt_ros__rosidl_generator_pyExport-noconfig.cmake
+[15.865s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/rosidl_cmake-extras.cmake
+[15.865s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.865s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.865s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[15.865s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/ament_cmake_export_targets-extras.cmake
+[15.866s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.866s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.866s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_rosConfig.cmake
+[15.866s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/cmake/qt_rosConfig-version.cmake
+[15.866s] -- Up-to-date: /home/maddy/qt_ros_workspace/install/qt_ros/share/qt_ros/package.xml
+[15.870s] Invoked command in '/home/maddy/qt_ros_workspace/build/qt_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maddy/qt_ros_workspace/build/qt_ros

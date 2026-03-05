@@ -1,0 +1,38 @@
+[  2%] Built target qt_ros__cpp
+[ 11%] Built target qt_ros__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_copy_qt_ros
+[ 33%] Built target qt_ros__rosidl_typesupport_fastrtps_cpp
+[ 30%] Built target qt_ros__rosidl_typesupport_introspection_cpp
+[ 50%] Built target qt_ros__rosidl_typesupport_introspection_c
+[ 50%] Built target qt_ros__rosidl_typesupport_cpp
+[ 59%] Built target qt_ros__rosidl_typesupport_c
+[ 69%] Built target qt_ros__rosidl_typesupport_fastrtps_c
+[ 69%] Built target qt_ros
+[35m[1mConsolidate compiler generated dependencies of target qt_node[0m
+[ 71%] Built target qt_ros__py
+[ 73%] [32mBuilding CXX object CMakeFiles/qt_node.dir/src/my_window.cpp.o[0m
+[ 80%] Built target qt_ros__rosidl_generator_py
+[ 85%] Built target qt_ros__rosidl_typesupport_fastrtps_c__pyext
+[ 90%] Built target qt_ros__rosidl_typesupport_c__pyext
+[ 95%] Built target qt_ros__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing qt_ros.egg-info/PKG-INFO
+writing dependency_links to qt_ros.egg-info/dependency_links.txt
+writing top-level names to qt_ros.egg-info/top_level.txt
+reading manifest file 'qt_ros.egg-info/SOURCES.txt'
+writing manifest file 'qt_ros.egg-info/SOURCES.txt'
+[ 95%] Built target ament_cmake_python_build_qt_ros_egg
+[01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:[m[K In constructor ‘[01m[KMyWindow::MyWindow(rclcpp::Node::SharedPtr, QWidget*)[m[K’:
+[01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:16:15:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KQObject* QObject::parent() const[m[K’
+   16 |     : QWidget([01;31m[Kparent[m[K), //calls the Qwidgets constructor
+      |               [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+                 from [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/include/qt_ros/my_window.hpp:8[m[K,
+                 from [01m[K/home/maddy/qt_ros_workspace/src/qt_ros/src/my_window.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:425:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  425 |     inline QObject *[01;36m[Kparent[m[K() const { return d_ptr->parent; }
+      |                     [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/qt_node.dir/build.make:90: CMakeFiles/qt_node.dir/src/my_window.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/qt_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
